@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['redirect']='/tech';
+$_SESSION['amount']="250";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -147,7 +152,7 @@
                                  <p><span>Description :</span>  Online event to show their acting skill.</p>
                                     <p><span>Participants :</span> Individual.</p>
                                     <div id="demo1" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p>Any kind of tik-tok video is accepted.</p>
                                        <p><span>Please Mention:</span> Name, Department, Year, College.</p>
                                         <p>Languages allowed - Tamil and English.</p>
@@ -159,10 +164,10 @@ to mail Id chem19online@gmail.com
                                         <p>The most liked video will be the winner.</p>
                                         <p>The adult content or usage of inappropriate word in tik-tok will
 not be entertained.</p>
-                        
+
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                    <button class="button button2">Register for Event</button>
+                                    <button onclick="set('tiktok')" class="button button2">Register for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +183,7 @@ not be entertained.</p>
                           <p><span>Description :</span>  Online event to show their photography skill</p>
                                     <p><span>Participants :</span> individual.</p>
                                     <div id="demo2" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p><span>Theme:</span> vintage photography.</p>
                                         <p><span>Please Mention:</span> Name, Department, Year, College.</p>
                                         <p>Send your photos to chem19online@gmail.com</p>
@@ -187,7 +192,7 @@ not be entertained.</p>
                                         <p>The most liked photograph will be the winner.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                    <button class="button button2">Register for Event</button>
+                                    <button onclick="set('Photography')" class="button button2">Register for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +208,7 @@ not be entertained.</p>
                      <p><span>Description :</span> Online event to show their skill in meme creating</p>
                                     <p><span>Participants :</span> Individual.</p>
                                     <div id="demo5" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p><span>Topic:</span> Chemical Engineering is fun.</p>
                                         <p><span>Please Mention:</span> Name, Department, Year, College.</p>
                                         <p>ALanguages allowed - Tamil and English.  </p>
@@ -217,7 +222,7 @@ not be entertained.</p>
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo5">Read More...</button>
-                                    <button class="button button2">Register for Event</button>
+                                    <button onclick="set('Meme contest')" class="button button2">Register for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +238,7 @@ not be entertained.</p>
                           <p><span>Description :</span>  A multiplayer game</p>
                                     <p><span>Participants :</span> Team</p>
                                     <div id="demo4" class="collapse">
-                                        
+
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
                                     <button class="button button2">Register for Event</button>
@@ -271,11 +276,22 @@ not be entertained.</p>
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+        function set(str) {
+
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                      console.log("Success"+str);
+                    }
+                };
+                xmlhttp.open("GET", "/set.php?q=" + str, true);
+                xmlhttp.send();
+        }
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://instagram.com/chemfluence" class="google" target="_blank"> <i class="fa fa-instagram" style="font-size:24px"></i>
         </a>
     </div>

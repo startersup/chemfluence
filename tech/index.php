@@ -186,7 +186,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
-                                    <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <button onclick="set('Poster Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -217,7 +217,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         </p>
                                      </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo">Read More...</button>
-                                    <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <button onclick="set('Jigsaw Explorer')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -244,7 +244,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         <p>Judge decision is final.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
- <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>                                </div>
+ <button onclick="set('Nerd Stop')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -271,7 +271,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                 <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                 <button onclick="set('Dumb Charades')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -296,7 +296,7 @@ solve in the right way.</p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo12">Read More...</button>
-                               <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                               <button onclick="set('Solve it')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -327,7 +327,7 @@ solve in the right way.</p>
                                         <br>
                                       </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                     <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                     <button onclick="set('Rummy with chemicals')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +350,7 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
-                                   <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                   <button onclick="set('Clash of chemicals')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -371,7 +371,7 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo10">Read More...</button>
-                                     <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                     <button onclick="set('Debate')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -391,7 +391,7 @@ solve in the right way.</p>
                                        <p><span>Interviewer decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo8">Read More...</button>
-                                    <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <button onclick="set('Mock Interview')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -417,7 +417,7 @@ of the team.</p>
                                          <p>Based on number of teams rounds will be decided.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo9">Read More...</button>
-                                     <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                     <button onclick="set('Chem-Connexions')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -445,7 +445,7 @@ disputed.</p>
 of the team.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                    <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <button onclick="set('Minutes to Disaster')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>

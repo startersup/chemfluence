@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['redirect']='/tech';
+$_SESSION['amount']="250";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -148,7 +153,7 @@
                                     <p><span>Topic :</span> Any chemical engineering related topic</p>
                                     <p><span>Participants :</span> 2 members / team (max).</p>
                                     <div id="demo11" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p>No registration fee required.</p>
                                         <p>Participants should submit their article on or before 21/03/2019</p>
                                         <p>Maximum 2 pages.</p>
@@ -161,7 +166,7 @@
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                      <button class="button button2">Subscribe Event</button>
+                                      <button onclick="set('Article Writing')" class="button button2">Subscribe Event</button>
                                 </div>
                             </div>
                         </div>
@@ -196,11 +201,22 @@
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+        function set(str) {
+
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                      console.log("Success"+str);
+                    }
+                };
+                xmlhttp.open("GET", "/set.php?q=" + str, true);
+                xmlhttp.send();
+        }
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://instagram.com/chemfluence" class="google" target="_blank"> <i class="fa fa-instagram" style="font-size:24px"></i>
         </a>
     </div>

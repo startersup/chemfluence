@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['redirect']='/nontech';
-$_SESSION['amount']="240";
+$_SESSION['amount']="250";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -157,7 +157,7 @@ $_SESSION['amount']="240";
                                        <p><span>Judges decision are final</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                     <button class="button button2">Subscribe Event</button>
+                                     <button onclick="set('Treasure Hunt')" class="button button2">Subscribe Event</button>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@ $_SESSION['amount']="240";
                                        <p><span>Organizers decision are final.</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                     <button class="button button2">Subscribe Event</button>
+                                     <button onclick="set('Adzap')" class="button button2">Subscribe Event</button>
                                 </div>
                             </div>
                         </div>
@@ -199,7 +199,7 @@ $_SESSION['amount']="240";
                                        <p><span>Organizers decision are final.</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                    <button class="button button2">Subscribe Event</button>
+                                    <button onclick="set('How stuff works')" class="button button2">Subscribe Event</button>
                                 </div>
                             </div>
                         </div>
@@ -233,6 +233,17 @@ $_SESSION['amount']="240";
 
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
+        }
+        function set(str) {
+
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                      console.log("Success"+str);
+                    }
+                };
+                xmlhttp.open("GET", "/set.php?q=" + str, true);
+                xmlhttp.send();
         }
     </script>
 
