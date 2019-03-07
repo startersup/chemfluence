@@ -63,7 +63,7 @@ mysqli_close($conn);
                                                <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span> <img src="../assets/images/house.png"><a href="../index.html">Home</a></span>
+                                    <center><span> <img src="../assets/images/house.png"><a href="../index.php">Home</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@ mysqli_close($conn);
                     <center><button name="login" class="button">Login Now</button>
                     <br><br> <p style="text-align: center;">Not yet Registered ? <a href="../register/">click here</a></p></center>
   </form></center>
-                    
+
                 </div>
                     <div class="col-md-3"></div>
             </div>
@@ -209,8 +209,8 @@ mysqli_close($conn);
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 

@@ -37,7 +37,7 @@ $_SESSION['redirect']='/index.php';
                         <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span> <img src="./assets/images/house.png"><a href="index.html">Home</a></span>
+                                    <center><span> <img src="./assets/images/house.png"><a href="index.php">Home</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -118,7 +118,7 @@ $_SESSION['redirect']='/index.php';
                          } else {
                            echo "<div class='col-md-3 col-xs-6'>
                                <div class='card shape' id='borderimg1'>
-                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../login/'>Login</a></span>
                                    </center>
                                </div>
                            </div>";

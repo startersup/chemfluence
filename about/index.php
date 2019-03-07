@@ -121,7 +121,7 @@ $_SESSION['redirect']='/about';
                          } else {
                            echo "<div class='col-md-3 col-xs-6'>
                                <div class='card shape' id='borderimg1'>
-                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../login/'>Login</a></span>
                                    </center>
                                </div>
                            </div>";
