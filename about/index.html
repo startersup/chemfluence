@@ -42,19 +42,19 @@
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span><a href="../about/"> <img src="../assets/images/flags.png">About</a></span>
+                                    <center><span> <img src="../assets/images/flags.png"><a href="../about/">About</a></span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span><a href="../events/"> <img src="../assets/images/party.png">Events</a></span>
+                                    <center><span> <img src="../assets/images/party.png"><a href="../events/">Events</a></span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span> <a href="../workshop/"><img src="../assets/images/class.png"> Workshops</a></span>
+                                    <center><span> <img src="../assets/images/class.png"> <a href="../workshop/">Workshops</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -63,25 +63,25 @@
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span><a href="../accom/"> <img src="../assets/images/motel.png"> Accomodation</a></span>
+                                    <center><span> <img src="../assets/images/motel.png"> <a href="../accom/">Accomodation</a></span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span><a href="../sponsors/"> <img src="../assets/images/investor.png">Sponsors</a></span>
+                                    <center><span> <img src="../assets/images/investor.png"><a href="../sponsors/">Sponsors</a></span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center> <span> <a href="../team/"><img src="../assets/images/networking.png">  Our Team</a> </span>
+                                    <center> <span> <img src="../assets/images/networking.png">  <a href="../team/">Our Team</a> </span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                             <center> <span>  <a href="../timeline/"><img src="../assets/images/timeline.png">   Timeline</a></span>
+                             <center> <span> <img src="../assets/images/timeline.png">   <a href="../timeline/"> Timeline</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -89,37 +89,27 @@
                         <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center> <span>  <a href="../contact/"><img src="../assets/images/contact.png"> Contact</a> </span>
+                                    <center> <span> <img src="../assets/images/contact.png">  <a href="../contact/">Contact</a> </span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center> <span> <a href="../route/"><img src="../assets/images/location.png">   Routes</a></span>
+                                    <center> <span> <img src="../assets/images/location.png">   <a href="../route/">Routes</a></span>
                                     </center>
                                 </div>
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center> <span> <a href="../register/"><img src="../assets/images/card.png">   Register</a></span>
+                                    <center> <span> <img src="../assets/images/card.png">   <a href="../register/">Register</a></span>
                                     </center>
                                 </div>
                             </div>
-                            <?php
-                            session_start();
-                              if(isset($_SESSION['id'])){
-                              echo "<div class='col-md-3 col-xs-6'>
-                                  <div class='card shape' id='borderimg1'>
-                                      <center> <span> <a href='../logout/'><img src='../assets/images/website.png'>   Logout</a></span>
-                                      </center>
-                                  </div>  ";
-                         } else {
-                           echo "<div class='col-md-3 col-xs-6'>
-                               <div class='card shape' id='borderimg1'>
-                                   <center> <span> <a href='../login/'><img src='../assets/images/website.png'>   Login</a></span>
-                                   </center>
-                               </div>";
-                         }       ?>
+                            <div class="col-md-3 col-xs-6">
+                                <div class="card shape" id="borderimg1">
+                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
+                                    </center>
+                                </div>
                             </div>
                         </div>
                     </div>
