@@ -166,7 +166,7 @@ $_SESSION['amount']="250";
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                      <button onclick="set('Article Writing')" class="button button2">Subscribe Event</button>
+                                      <button onclick="set('Article Writing')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe Event</button>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,35 @@ $_SESSION['amount']="250";
                 </div>
             </div>
         </div>
+        <!-- modal-content -->
+         <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel-2">Subscribe the Event </h4>
+                    </div>
+                    <div class="modal-body">
+                    <center><p>Choose your suitable options according to your convenience</p>
+                          <div class="row">
+                    <div class="col-md-6"><center><p>Paying Through Online?</p><br>
+         <a href=""><button class="button button2">Click here</button></a>
 
+                    </center></div>
+                          <div class="col-md-6"><center><p>Paying Onspot?</p><br>
+         <a href="/success"><button class="button button2">Click here</button></a>
+
+                    </center></div>
+                          </center>
+                    </div>
+
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+                    </div>
+                    </div><!-- modal-content -->
+                    </div><!-- modal-dialog -->
+                    </div>
+
+        </div>
 
         <footer class="footer right">
             <div class="icons">

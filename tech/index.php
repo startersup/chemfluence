@@ -485,7 +485,7 @@ of the team.</p>
             </div><!-- modal-dialog -->
             </div>
 
-
+</div>
 
 
 
