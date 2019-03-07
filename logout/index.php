@@ -1,8 +1,8 @@
 <<?php
 session_start();
 session_unset($_SESSION['id']);
-session_unset($_SESSION['mode']);
-session_unset($_SESSION['orderid']);
+session_unset($_SESSION['amount']);
+session_unset($_SESSION['name']);
 session_destroy();
 header('location: /index.php');
  ?>
