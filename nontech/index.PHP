@@ -1,7 +1,7 @@
 <?php
 session_start();
 $_SESSION['redirect']='/nontech';
-$_SESSION['amount']="250";
+$_SESSION['amount']="240";
 ?>
 <!DOCTYPE html>
 <html lang="en">
