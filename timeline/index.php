@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['redirect']='/timeline';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -109,11 +113,23 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
-                                    </center>
-                                </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                             </div>
                         </div>
                     </div>
@@ -146,7 +162,7 @@
         <li>
 
           <div class="timeline-badge warning"><img  class="imge1" src="../assets/images/ino.png"></div>
-         
+
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">INAUGURATION</h4>
@@ -206,7 +222,7 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>The workshop named Aspen HYSYS will be started at the Mentioned time. Participants are requested to report venue before.</p>     
+              <p>The workshop named Aspen HYSYS will be started at the Mentioned time. Participants are requested to report venue before.</p>
             </div>
           </div>
         </li>
@@ -230,7 +246,7 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM – 12:30 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>Normal quiz based on chemical engineering with moderate difficulty.</p>     
+              <p>Normal quiz based on chemical engineering with moderate difficulty.</p>
             </div>
           </div>
         </li>
@@ -255,11 +271,11 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2:00 PM - 3:30 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. </p>     
+              <p>Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. </p>
             </div>
           </div>
         </li>
-       
+
         <li class="timeline-inverted">
           <div class="timeline-badge warning"><img class="imge1" src="../assets/images/clash%20of%20chemic.png"></div>
           <div class="timeline-panel">
@@ -297,11 +313,11 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p></p>     
+              <p></p>
             </div>
           </div>
         </li><br>
-       
+
         <li class="timeline-inverted">
           <div class="timeline-badge success"><img class="imge1" src="../assets/images/rummy.png"></div>
           <div class="timeline-panel">
@@ -322,7 +338,7 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM – 12:30 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p> It is inspired from popular reality show. Here we will be using chemical engineering terms instead of normal words.</p>     
+              <p> It is inspired from popular reality show. Here we will be using chemical engineering terms instead of normal words.</p>
             </div>
           </div>
         </li>
@@ -348,7 +364,7 @@
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2:00 PM - 3:30 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>In this event you will be given a case study of hypothetical industrial disasters around the world. </p>     
+              <p>In this event you will be given a case study of hypothetical industrial disasters around the world. </p>
             </div>
           </div>
         </li>
@@ -401,8 +417,8 @@
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 

@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['redirect']='/index.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,12 +106,23 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="./assets/images/website.png">   <a href="./login/">Login</a></span>
-                                    </center>
-                                </div>
-                            </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                         </div>
                     </div>
                 </div>
@@ -193,8 +208,8 @@
     </script>
 
      <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 

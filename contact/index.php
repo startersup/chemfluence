@@ -1,9 +1,13 @@
+<?php
+session_start();
+$_SESSION['redirect']='/contact';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Events | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Contact Us | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +37,7 @@
                 <div class="overlay-content">
 
                     <div class="container">
-                                               <div class="row">
+                        <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
                                     <center><span> <img src="../assets/images/house.png"><a href="../index.html">Home</a></span>
@@ -105,18 +109,29 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
-                                    </center>
-                                </div>
-                            </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                         </div>
                     </div>
                 </div>
             </div>
             <center>
-                <a class="navbar-brand" href="../index.html">
+                <a class="navbar-brand" href="index.html">
                     <span> <img class="logo" src="../assets/images/logofull.png"></span>
                 </a>
             </center>
@@ -128,56 +143,48 @@
 
         </div>
     </nav>
-    <section class="eventmain">
+    <section class="contactmain">
         <div class="container top">
-            <div class="row">
-                <div class="col-md-9">
+               <h3>Contact Us</h3>
+                           <div class="row">
+
+                <div class="col-md-10 card eventspace" id="borderimg1">
                     <center>
-                        <h3>Events</h3>
-                        <br>
-                        <div class="row">
+
+                        <div id="map"></div><br><br>
+                         <h4>co ordinator</h4>
+
+                         <br>
+                         <div class="row">
                             <div class="col-md-6">
-                                <div class="card eventspace" id="borderimg2">
-                                    <center> <img src="../assets/images/quiz.png"></center>
-                                <p>Intrested in Participating the Techincal Events and explore your Talents?</p>
-                            <a href="../tech/"> <button class="button button3" >Spot</button></a>
-                                  <a href="../ontech/">   <button class="button button2">Online</button></a>
-                                </div>
-                            </div>
-                               <div class="col-md-6">
-                                <div class="card eventspace" id="borderimg2">
-                                     <center> <img src="../assets/images/clown.png"></center>
-                                    <p>Intrested in Participating the Non Techincal Events and express  your Funpack Knowledge ?</p>
-                             <a href="../nontech/"> <button class="button button3" >Spot</button></a>
-                                  <a href="../nontechon/">   <button class="button button2">Online</button></a>
-                                </div>
-                            </div>
-                        </div>
+                         <p>1) SHANKARA BALAN – 94448 25499</p>
+                         <p>2) RUPAN KUMAR – 97911 86516</p>
+                         <p>3) JEBIN JOSHUA MOSES – 89038 32168</p>
+
+                     </div>
+                      <div class="col-md-6"> <p>4) MOHAMMED SULAIMAN – 78069 76789</p>
+                         <p>5) KAILESH SAKTHIVEL - 76396 33897</p>
+                         <p>6) GAYATHRI KALYANARAMAN – 97911 02730</p></div>
+                     </div>
                     </center>
-                    
-                       <div class="card eventspace topper" id="borderimg2">
-           <P><b style="color:#000000;">Note:</b> The Participant who are registering for technical events can also register for any non-tech events, there is no restrictions in registering for events.</P>
-            
-            </div>
                 </div>
             </div>
-         
         </div>
 
 
-        <footer class="footer right">
-                <div class="icons">
+        <footer class="footer  right">
+           <div class="icons">
                <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
               <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i>
                   <a href="https://instagram.com/chemfluence" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
                 </center>
+                <br>
             </div>
-            <br>
             <center>
                 <p class="footerp">Copyrights &copy 2019 Chemfluence. All Rights Reserved</p>
                 <span class="craft">UI design by <a href="https://www.behance.net/prawinronab0fb" target="_blank">SK</a> | Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span>
             </center>
-             <br>
+            <br>
         </footer>
 
     </section>
@@ -192,12 +199,30 @@
         }
     </script>
 
-     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+    <div class="icon-bar hidden-sm hidden-xs">
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
+  <script>
 
+function initMap() {
+        var myLatLng = {lat: 13.0078535, lng: 80.236650};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Alagappa College of Technology'
+        });
+      }
+    </script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgJNbx7wr01p7h2a0psOsVieTc7Ge1LB8&libraries=places&callback=initMap"
+        async defer></script>
 </body>
 
 </html>

@@ -1,9 +1,13 @@
+<?php
+session_start();
+$_SESSION['redirect']='/events';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Accomodation | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Events | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +37,7 @@
                 <div class="overlay-content">
 
                     <div class="container">
-                        <div class="row">
+                                               <div class="row">
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
                                     <center><span> <img src="../assets/images/house.png"><a href="../index.html">Home</a></span>
@@ -105,12 +109,23 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
-                                    </center>
-                                </div>
-                            </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                         </div>
                     </div>
                 </div>
@@ -128,34 +143,56 @@
 
         </div>
     </nav>
-    <section class="accomain">
+    <section class="eventmain">
         <div class="container top">
             <div class="row">
-                <div class="col-md-9 card eventspace" id="borderimg1">
+                <div class="col-md-9">
                     <center>
-                        <h3>Accomodation</h3>
-                        <p>Will be updated soon !</p>
+                        <h3>Events</h3>
                         <br>
-                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card eventspace" id="borderimg2">
+                                    <center> <img src="../assets/images/quiz.png"></center>
+                                <p>Intrested in Participating the Techincal Events and explore your Talents?</p>
+                            <a href="../tech/"> <button class="button button3" >Spot</button></a>
+                                  <a href="../ontech/">   <button class="button button2">Online</button></a>
+                                </div>
+                            </div>
+                               <div class="col-md-6">
+                                <div class="card eventspace" id="borderimg2">
+                                     <center> <img src="../assets/images/clown.png"></center>
+                                    <p>Intrested in Participating the Non Techincal Events and express  your Funpack Knowledge ?</p>
+                             <a href="../nontech/"> <button class="button button3" >Spot</button></a>
+                                  <a href="../nontechon/">   <button class="button button2">Online</button></a>
+                                </div>
+                            </div>
+                        </div>
                     </center>
+
+                       <div class="card eventspace topper" id="borderimg2">
+           <P><b style="color:#000000;">Note:</b> The Participant who are registering for technical events can also register for any non-tech events, there is no restrictions in registering for events.</P>
+
+            </div>
                 </div>
             </div>
+
         </div>
 
 
-        <footer class="footer top right">
-           <div class="icons">
+        <footer class="footer right">
+                <div class="icons">
                <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
               <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i>
                   <a href="https://instagram.com/chemfluence" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
                 </center>
-                <br>
             </div>
+            <br>
             <center>
                 <p class="footerp">Copyrights &copy 2019 Chemfluence. All Rights Reserved</p>
                 <span class="craft">UI design by <a href="https://www.behance.net/prawinronab0fb" target="_blank">SK</a> | Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span>
             </center>
-            <br>
+             <br>
         </footer>
 
     </section>
@@ -170,9 +207,9 @@
         }
     </script>
 
-    <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+     <div class="icon-bar hidden-sm hidden-xs">
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 

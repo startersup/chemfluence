@@ -1,9 +1,13 @@
+<?php
+session_start();
+$_SESSION['redirect']='/sponsors';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Routes | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Sponsors | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,7 +85,7 @@
                             </div>
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/timeline.png">   <a href="../timeline/"> Timeline</a></span>
+                             <center> <span> <img src="../assets/images/timeline.png">   <a href="../timeline/"> Timeline</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -105,12 +109,23 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
-                                    </center>
-                                </div>
-                            </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                         </div>
                     </div>
                 </div>
@@ -128,98 +143,24 @@
 
         </div>
     </nav>
-    <section class="routemain">
+    <section class="sponmain">
         <div class="container top">
             <div class="row">
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
-                        <h3>Popular Routes</h3>
+                        <h3>Sponsors</h3>
+                        <p>Will be updated soon !</p>
                         <br>
-                        <br>
-                        <h4>Alagappa College of Technology</h4>
-                        <p>Anna University, Sardar Patel Road, Anna University, Guindy, Chennai, Tamil Nadu 600025</p>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-8">
-                                <h4>Train Routes</h4>
-                                <p><span>1. FROM CHENNAI EGMORE & TAMBARAM</span>
-                                </p>
-                                <p>Take a Local Train ( Beach - Tambaram )</p>
-                                <p>Get down in Guindy Railway Station</p>
-                                <p>Go to Guindy Bus stop</p>
-                                <p>Board the Buses 49 , 21G , 54F, get down in CLRI Stop.</p>
-                                <p>Walk in to ACT (ALAGAPPA COLLEGE OF TECHNOLOGY)</p>
-                                <br>
-                                <p><span>1. FROM CHENNAI EGMORE & TAMBARAM</span>
-                                </p>
-                                <p>Take Local Train from Park Town ( Beach - Velachery)</p>
-                                <p>Get down in Kasturba Railway Station</p>
-                                <p>Walk to College or Take any bus and get down in Anna University</p>
 
-                            </div>
-                            <div class="col-md-4">
-                                <img class="imaging" src="../assets/images/train1.png">
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <hr>
-                        <br>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img class="imaging" src="../assets/images/bus.png">
-                            </div>
-                            <div class="col-md-8">
-                                <h4>Bus Routes</h4>
-                                <p><span>1. FROM TAMBARAM</span>
-                                </p>
-                                <p>Board the Bus 21G( Vandalur Zoo - Broadway Route) FREQ – 20 MIN.</p>
-                                <p>Get down in CLRI Bus Stop</p>
-                                <p>Walk to College</p>
-                                <br>
-                                <p><span>2. FROM CHENNAI EGMORE</span>
-                                </p>
-                                <p>Board the Bus 23C( Ayanavaram - Besant Nagar) FREQ – 25 MIN.</p>
-                                <p>Get down in CLRI Bus Stop</p>
-                                <p>Walk to College</p>
-                                <br>
-                                <p><span>3. FROM CHENAI CENTRAL</span>
-                                </p>
-                                <p>Board the Bus 5C( Broadway - Tharamani) FREQ – 30 MIN.</p>
-                                <p>Get down in CLRI Bus Stop</p>
-                                <p>Walk to College</p>
-                                <br>
-                            </div>
-
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div class="row">
-
-                            <div class="col-md-6">
-                                <h4>Cab Routes</h4>
-                                <p>1. From tambaram -Rs 200 to Rs 250</p>
-                                <p>From egmore - Rs 150 to Rs 200</p>
-                                <p>From central - Rs 200 to Rs 250</p>
-                                <p>Surge Prices Apply during Peak Hours</p>
-                            </div>
-                            <div class="col-md-6">
-                                <img class="imaging" src="../assets/images/taxi.png">
-                            </div>
-                        </div>
                     </center>
                 </div>
             </div>
         </div>
 
 
-        <footer class="footer  right">
-            <div class="icons">
-                <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
+        <footer class="footer top right">
+           <div class="icons">
+               <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
               <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i>
                   <a href="https://instagram.com/chemfluence" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
                 </center>
@@ -245,10 +186,9 @@
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
-        <a href="https://instagram.com/chemfluence" class="google" target="_blank"> <i class="fa fa-instagram" style="font-size:24px"></i>
-        </a>
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 
 </body>

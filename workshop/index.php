@@ -1,9 +1,13 @@
+<?php
+session_start();
+$_SESSION['redirect']='/workshop';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Sponsors | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>About Us | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -105,12 +109,23 @@
                                     </center>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-xs-6">
-                                <div class="card shape" id="borderimg1">
-                                    <center> <span> <img src="../assets/images/website.png">   <a href="../login/">Login</a></span>
-                                    </center>
-                                </div>
-                            </div>
+                            <?php
+                            session_start();
+                              if(isset($_SESSION['id'])){
+                              echo "<div class='col-md-3 col-xs-6'>
+                                  <div class='card shape' id='borderimg1'>
+                                      <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                      </center>
+                                  </div>
+                              </div> ";
+                         } else {
+                           echo "<div class='col-md-3 col-xs-6'>
+                               <div class='card shape' id='borderimg1'>
+                                   <center> <span> <img src='../assets/images/website.png'>   <a href='../logout/'>Logout</a></span>
+                                   </center>
+                               </div>
+                           </div>";
+                         }       ?>
                         </div>
                     </div>
                 </div>
@@ -128,15 +143,17 @@
 
         </div>
     </nav>
-    <section class="sponmain">
+    <section class="workmain">
         <div class="container top">
             <div class="row">
-                <div class="col-md-9 card eventspace" id="borderimg1">
+                <div class="col-md-10 card eventspace" id="borderimg1">
                     <center>
-                        <h3>Sponsors</h3>
+                       <center>
+                        <h3>Workshops</h3>
                         <p>Will be updated soon !</p>
                         <br>
-                        
+
+                    </center>
                     </center>
                 </div>
             </div>
@@ -171,8 +188,8 @@
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 
