@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['redirect']='/nontech';
+$_SESSION['amount']="250";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -147,7 +152,7 @@
                                  <p><span>Description :</span>  There is a hidden treasure behind every every clue, its your job to find it.</p>
                                     <p><span>Participants :</span> 3 members / team.</p>
                                     <div id="demo1" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p>Participants have to find the hidden treasure based on the clues.</p>
                                        <p><span>Judges decision are final</span> </p>
                                     </div>
@@ -168,7 +173,7 @@
                                  <p><span>Description :</span>  An event to show their marketing skill.</p>
                                     <p><span>Participants :</span> 3 members / team.</p>
                                     <div id="demo2" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                         <p>Participants will be given a product for marketing.</p>
                                         <p>They will be given 15 min for preparation.</p>
                                        <p><span>Organizers decision are final.</span> </p>
@@ -190,7 +195,7 @@
                                  <p><span>Description :</span>  participants have to explain the working principle .</p>
                                     <p><span>Participants :</span>2 members / team.</p>
                                     <div id="demo3" class="collapse">
-                                        <h4>Rules:</h4> 
+                                        <h4>Rules:</h4>
                                        <p><span>Organizers decision are final.</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
@@ -232,8 +237,8 @@
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> 
-        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
         <a href="https://instagram.com/chemfluence" class="google" target="_blank"> <i class="fa fa-instagram" style="font-size:24px"></i>
         </a>
     </div>

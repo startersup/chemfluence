@@ -1,3 +1,8 @@
+<?php
+session_start();
+$_SESSION['redirect']='/tech';
+$_SESSION['amount']="250";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -135,7 +140,7 @@
                     <center>
                         <h3>Spot Events</h3>
                         <br>
-                        
+
                          <div class="card eventspace " id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
@@ -148,7 +153,7 @@
                                    <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
                                     <p>Based on evaluation of abstract 10 participants will be selected.</p>
                                     <p>Abstract are to be sent to mail id.</p>
-                                    
+
                                     <p><span> Topic: Any Engineering Process </span></p>
                                      <div id="demo6" class="collapse">
                                          <p>Those 10 will be contacted through mail before March 23, 10:00 pm</p>
@@ -156,7 +161,7 @@
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
-                                   <button class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                   <button onclick="set('Paper Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
                                 </div>
                             </div>
                         </div>
@@ -192,7 +197,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         <img class="imge" src="../assets/images/jigsaw.png">
                                     </center>
                                 </div>
-                                
+
                                 <div class="col-md-9 span">
                                     <h4> JIGSAW EXPLORER</h4>
                                     <p><span>Description :</span> 25 pieces puzzle of plant layout or an equipment.</p>
@@ -228,7 +233,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                     <p><span>Description :</span>Normal quiz based on chemical engineering with moderate difficulty.</p>
                                     <p><span>Participants :</span> 2 members / team.</p>
                                     <div id="demo1" class="collapse">
-                                        <h4>Selection & Judgement:</h4> 
+                                        <h4>Selection & Judgement:</h4>
                                         <p>Each team write the answer in respective paper given.</p>
                                         <p>Marks are evaluated for each team.</p>
                                         <p>Top 6 (if teams
@@ -255,7 +260,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         it directly.</p>
                                     <p><span>Participants :</span> 1 member / team.</p>
                                     <div id="demo2" class="collapse">
-                                        <h4>Selection & Judgement:</h4> 
+                                        <h4>Selection & Judgement:</h4>
                                         <p>Teams that identify the chemicals are arranged based on time taken to find in ascending order.</p>
                                         <p>Two teams take part at a time.</p>
                                         <p> Top 6 (if teams
@@ -283,7 +288,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
 solve in the right way.</p>
                                     <p><span>Participants :</span> max 2 members / team.</p>
                                     <div id="demo12" class="collapse">
-                                        <h4>Selection & Judgement:</h4> 
+                                        <h4>Selection & Judgement:</h4>
                                         <p>It will be of two rounds preliminary and final round.</p>
                                         <p>Use of scientific calculator is allowed.</p>
                                         <p>Marks would be given based on the scoring card prepared.</p>
@@ -306,9 +311,9 @@ solve in the right way.</p>
                                     <h4> RUMMY WITH CHEMICALS</h4>
                                     <p><span>Description :</span> A normal rummy game with joker, instead of decks of A,K,Q,J,…. ,Game is with chemicals.</p>
                                     <p><span>Participants :</span> 3 members / team.</p>
-                                   
+
                                     <div id="demo3" class="collapse">
-                                        <h4>Selection & Judgement:</h4> 
+                                        <h4>Selection & Judgement:</h4>
                                         <p>Up to 6 teams can participate in a single game.</p>
                                         <p>Team to declare first is the winner.</p>
                                         <p>Based on number of teams, no. of game will be decided by judge.</p>
@@ -338,7 +343,7 @@ solve in the right way.</p>
                                     <p><span>Description :</span> Similar to Draft card battle in clash royale.</p>
                                     <p><span>Participants :</span> 2 members / team.</p>
                                      <div id="demo4" class="collapse">
-                                        <h4>Selection & Judgement:</h4> 
+                                        <h4>Selection & Judgement:</h4>
                                         <p>At a time 6 team can battle it out, that is 3 battle with one deck.</p>
                                         <p>Winners of battle go for next round.</p>
                                         <p>Each round, battle pairs are made by judges.</p>
@@ -349,7 +354,7 @@ solve in the right way.</p>
                                 </div>
                             </div>
                         </div>
-     
+
                                        <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
@@ -404,7 +409,7 @@ chemical engineering terms instead of normal words.</p>
                                     <p><span>Time duration :</span>60 seconds</p>
                                     <p><span>Participants :</span>   2 members / team.</p>
                                      <div id="demo9" class="collapse">
-                                          <h4>Selection & Judgement:</h4> 
+                                          <h4>Selection & Judgement:</h4>
                                        <p>The final decision rests in the hands of the panel of judges and cannot be
 disputed.</p>
                                          <p>Any form of malpractice by a team member will result in disqualification
@@ -432,7 +437,7 @@ yourself in the situation, crack your brain and identify the cause.
                                     <p><span>Time duration :</span>10 minutes</p>
                                     <p><span>Participants :</span>    3 members / team (max).</p>
                                      <div id="demo11" class="collapse">
-                                          <h4>Selection & Judgement:</h4> 
+                                          <h4>Selection & Judgement:</h4>
                                        <p>It’s all about critical reasoning.</p>
                                          <p>The final decision rests in the hands of panel of judges and cannot be
 disputed.</p>
@@ -463,11 +468,11 @@ of the team.</p>
             <center><p>Choose your suitable options according to your convenience</p>
                   <div class="row">
             <div class="col-md-6"><center><p>Paying Through Online?</p><br>
- <button class="button button2">Click here</button>
+ <a href=""><button class="button button2">Click here</button></a>
 
             </center></div>
                   <div class="col-md-6"><center><p>Paying Onspot?</p><br>
- <button class="button button2">Click here</button>
+ <a href="/success"><button class="button button2">Click here</button></a>
 
             </center></div>
                   </center>
@@ -509,12 +514,22 @@ of the team.</p>
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
         }
+function set(str) {
+
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+            }
+        };
+        xmlhttp.open("GET", "/set.php?q=" + str, true);
+        xmlhttp.send();
+}
     </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-        <a href="#" class="google"><i class="fa fa-google"></i></a> 
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
     </div>
 
 </body>
