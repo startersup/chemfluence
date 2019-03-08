@@ -179,7 +179,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 
  <div class="main-content">
  <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
- <p class="main-content__body" data-lead-id="main-content-body">You have successfully subscribed the event.You have chosen onspot resgistration.</p>
+ <p class="main-content__body" data-lead-id="main-content-body">You have successfully subscribed the event.You have chosen onspot registration.</p>
  </div>
  <center><a href="http://petrovision.co.in">Back to Home</a></center>
  </body>
