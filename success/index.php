@@ -28,10 +28,10 @@ else {
   $res=mysqli_query($conn,$sql);
 
     $subject ="Greetings From Chemfluence";
-
+$mail1=$_SESSION['name'];
 
 $headers = "";
-   $to      = $mail;
+   $to      = $mail1;
 $headers .= "From: Chemfluence <info@chemfluence.in> \r\n";
 $headers .= "Reply-To:Chemfluence <info@chemfluence.in> \r\n"."X-Mailer: PHP/";// . phpversion();
 $headers .= "MIME-Version: 1.0" . "\r\n";
