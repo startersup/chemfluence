@@ -37,7 +37,12 @@ $headers .= "Reply-To:Chemfluence <info@chemfluence.in> \r\n"."X-Mailer: PHP/";/
 $headers .= "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 
-    $message .= '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
+    $message .= '
+    
+    <html>
+    <head>
+    <title>Success | chemfluence 2k19 </title></head>
+    <body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
 
     <table class=" main contenttable" align="center" style="font-weight: normal;border-collapse: collapse;border: 0;margin-left: auto;margin-right: auto;padding: 0;font-family: Arial, sans-serif;color: #555559;background-color: white;font-size: 16px;line-height: 26px;width: 600px;">
     		<tr>
@@ -113,7 +118,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     			</td>
     		</tr>
     	</table>
-      </body>
+      </body></html>
       <style>
       @media only screen and (max-width: 600px) {
     		.main {
