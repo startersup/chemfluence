@@ -52,7 +52,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     								<tr>
     									<td class="grey-block" style="border-collapse: collapse;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;background-color: #fff;width:100%; ">
     									<div class="mktEditable" id="cta">
-    									<img class="top-image" src="http://chemfluence.in//assets/images/ebanner.png" width="700"/><br>
+    									<img class="top-image" src="http://chemfluence.in/assets/images/ebanner.png" width="700"/><br>
 
     									</div>
     									</td>
