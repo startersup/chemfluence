@@ -79,9 +79,9 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     										<table style="font-weight: normal;border-collapse: collapse;border: 0;margin: 0;padding: 0;font-family: Arial, sans-serif;">
     											<tr>
 
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/chemfluence/"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/59/59439.svg"></a></td>
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://twitter.com/chemfluence"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/8/8800.svg"></a></td>
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://instagram.com/chemfluencee"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/87/87390.svg"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/chemfluence/"><img style="width:25px;"  src="http://chemfluence.in/assets/images/59439.svg"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://twitter.com/chemfluence"><img style="width:25px;"  src="http://chemfluence.in/assets/images/8800.svg"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://instagram.com/chemfluencee"><img style="width:25px;"  src="http://chemfluence.in/assets/images/87390.svg"></a></td>
 
 
 
