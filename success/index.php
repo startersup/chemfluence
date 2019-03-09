@@ -61,7 +61,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     								<tr>
     									<td class="text" style="border-collapse: collapse;border: 0;margin: 0;padding: 10px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;">
     									<div class="mktEditable" id="main_text">
-    										<p style="font-size:19px;line-height:30px;">Hello <b> "<?php echo $name ?>" </b>,<br><br>
+    										<p style="font-size:19px;line-height:30px;">Hello <b> '.$name.' </b>,<br><br>
     										Greetings from Chemfluence !! <br><br>
     We, the organisers of Chemfluence 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Chemfluence 2k19.<br><p>
     									</div>
