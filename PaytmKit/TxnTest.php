@@ -160,7 +160,7 @@ if(!isset($_SESSION['id']))
         <div class="container top">
             <div class="row">
                 <div class="col-md-9 card eventspace" id="borderimg1">
-                    <center>
+               
                        <p>You are one step away from payment!</p>
                           <div class="container1">
                         <form method="post" action="">
@@ -180,7 +180,7 @@ if(!isset($_SESSION['id']))
                             <br> <input type="submit" class="btn btn-success" value="Proceed to Checkout">
                         </form>
  </div>
-                    </center>
+              
                        
                 </div>
             </div>
