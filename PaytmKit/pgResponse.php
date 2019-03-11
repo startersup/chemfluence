@@ -23,7 +23,7 @@ if($isValidChecksum == "TRUE") {
 	if ($_POST["STATUS"] == "TXN_SUCCESS") {
 		session_start();
 		$id= $_SESSION['id'];
-		$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+		$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
 		$sql="select * from students where id='$id'";
 		$res=mysqli_query($conn,$sql);
 		$row=mysqli_fetch_array($res);

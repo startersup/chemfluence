@@ -9,7 +9,7 @@ if(!isset($_SESSION['id']))
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
 	$id= $_SESSION['id'];
-	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+	$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
