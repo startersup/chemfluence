@@ -163,7 +163,7 @@ if(!isset($_SESSION['id']))
                
                        <p>You are one step away from payment!</p>
                           <div class="container1">
-                        <form method="post" action="">
+                        <form method="post" action="http://chemfluence.in/PaytmKit/pgRedirect.php">
                         <p>Order Id</p>
                             <input type="text" class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
                         <p>Student Name</p>
