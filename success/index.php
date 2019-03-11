@@ -29,7 +29,6 @@ else {
 
     $subject ="Greetings From Chemfluence";
 
-
 $headers = "";
    $to      = $mail;
 $headers .= "From: Chemfluence <info@chemfluence.in> \r\n";
@@ -37,7 +36,12 @@ $headers .= "Reply-To:Chemfluence <info@chemfluence.in> \r\n"."X-Mailer: PHP/";/
 $headers .= "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 
-    $message .= '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
+    $message .= '
+    
+    <html>
+    <head>
+    <title>Success | chemfluence 2k19 </title></head>
+    <body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
 
     <table class=" main contenttable" align="center" style="font-weight: normal;border-collapse: collapse;border: 0;margin-left: auto;margin-right: auto;padding: 0;font-family: Arial, sans-serif;color: #555559;background-color: white;font-size: 16px;line-height: 26px;width: 600px;">
     		<tr>
@@ -48,7 +52,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     								<tr>
     									<td class="grey-block" style="border-collapse: collapse;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;background-color: #fff;width:100%; ">
     									<div class="mktEditable" id="cta">
-    									<img class="top-image" src="../assets/images/ebanner.png" width="700"/><br>
+    									<img class="top-image" src="http://chemfluence.in/assets/images/ebanner.png" width="700"/><br>
 
     									</div>
     									</td>
@@ -57,7 +61,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     								<tr>
     									<td class="text" style="border-collapse: collapse;border: 0;margin: 0;padding: 10px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;">
     									<div class="mktEditable" id="main_text">
-    										<p style="font-size:19px;line-height:30px;">Hello <b>Saicharan</b>,<br><br>
+    										<p style="font-size:19px;line-height:30px;">Hello <b> '.$name.' </b>,<br><br>
     										Greetings from Chemfluence !! <br><br>
     We, the organisers of Chemfluence 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Chemfluence 2k19.<br><p>
     									</div>
@@ -75,9 +79,9 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     										<table style="font-weight: normal;border-collapse: collapse;border: 0;margin: 0;padding: 0;font-family: Arial, sans-serif;">
     											<tr>
 
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/chemfluence/"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/59/59439.svg"></a></td>
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://twitter.com/chemfluence"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/8/8800.svg"></a></td>
-    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://instagram.com/chemfluencee"><img style="width:25px;"  src="https://image.flaticon.com/icons/svg/87/87390.svg"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://www.facebook.com/chemfluence/"><img style="width:25px;"  src="http://chemfluence.in/assets/images/facebook.png"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://twitter.com/chemfluence"><img style="width:25px;"  src="http://chemfluence.in/assets/images/twitter.png"></a></td>
+    									<td style="border-collapse: collapse;border: 0;margin: 0;padding: 5px 15px;-webkit-text-size-adjust: none;color: #555559;font-family: Arial, sans-serif;font-size: 16px;line-height: 26px;"><a href="https://instagram.com/chemfluencee"><img style="width:25px;"  src="http://chemfluence.in/assets/images/instagram.png"></a></td>
 
 
 
@@ -113,7 +117,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
     			</td>
     		</tr>
     	</table>
-      </body>
+      </body></html>
       <style>
       @media only screen and (max-width: 600px) {
     		.main {
@@ -160,6 +164,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
  ?>
  <html lang="en">
  <head>
+   <title>SUCCESS | Chemfluence</title>
  <meta charset="utf-8" />
  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -179,8 +184,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 
  <div class="main-content">
  <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
- <p class="main-content__body" data-lead-id="main-content-body">You have successfully subscribed the event.You have chosen onspot resgistration.</p>
+ <p class="main-content__body" data-lead-id="main-content-body">You have successfully subscribed the event.You have chosen onspot registration.</p>
  </div>
- <center><a href="http://petrovision.co.in">Back to Home</a></center>
+ <center><a href="http://chemfluence.in">Back to Home</a></center>
  </body>
  </html>
