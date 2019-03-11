@@ -162,7 +162,7 @@ if(!isset($_SESSION['id']))
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
                        <p>You are one step away from payment!</p>
-                          <div class="container">
+                          <div class="container1">
                         <form method="post" action="">
                         <p>Order Id</p>
                             <input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
