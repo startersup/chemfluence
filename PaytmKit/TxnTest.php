@@ -162,29 +162,7 @@ if(!isset($_SESSION['id']))
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
                         <h3>You are one step away from payment!</h3>
-                           <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
-    <div class="form-group">
-      <label>Order Id</label>
-			<input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
-    </div>
-    <div class="form-group">
-      <label>Student Name</label>
-      <input type="text" class="form-control"  value="<?php echo $name; ?>" name="pwd" disabled>
-    </div>
-                  <div class="form-group">
-      <label>Event Subscribed</label>
-      <input type="text" class="form-control"  value="<?php echo $_SESSION['name'];?>" name="pwd" disabled>
-    </div>
-  <div class="form-group">
-      <label>Amount</label>
-      <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
-			<input type="hidden" value="WEB" name="CHANNEL_ID">
-			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<input type="hidden" name="CUST_ID" Value="CUST001">
-			<input type="hidden" name="ORDER_ID" value="<?php echo $_SESSION['orderid'];?>">
-    </div>
-
-              <input type="submit" class="button1" value="Proceed to Checkout">  </form> 
+                          
                         <br>
 
                     </center>
