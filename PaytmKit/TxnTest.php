@@ -207,7 +207,14 @@ if(!isset($_SESSION['id']))
         <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
-
+<style>
+    
+    .container1
+    {
+        margin-left:10%;
+        margin-right:10%;
+    }
+    </style>
 </body>
 
 </html>
