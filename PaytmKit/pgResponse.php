@@ -84,7 +84,7 @@ $message .= '<html>
     									<div class="mktEditable" id="main_text">
     										<p style="font-size:19px;line-height:30px;">Hello <b> '.$name.' </b>,<br><br>
     										Greetings from Chemfluence !! <br><br>
-    We, the organisers of Chemfluence 2k19 would like to welcome you to our Extravaganza of this academic year. This mail is in confirmation of your successful subscription and registration for the event. We expect to meet you soon and welcome you in person . Once again, a warm welcome from the organising committee of Chemfluence 2k19.<br><p>
+    We got an online payment transaction. we hope that it was from you, let us double check your payment and send you a confirmation email.<br><p>
     									</div>
     									</td>
     								</tr>
@@ -204,7 +204,7 @@ $message .= '<html>
 		<i class="fa fa-check main-content__checkmark" id="checkmark"></i>
 		<p class="main-content__body" data-lead-id="main-content-body">We are delighted to inform you that we received your payment, you will be receiveing the payment confirmation and Event Pass through Email.</p>
 	</div>
-<center><a href="http://petrovision.co.in">Back to Home</a></center>
+<center><a href="http://Chemfluence.in">Back to Home</a></center>
 </body>
 </html>';
 
