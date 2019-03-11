@@ -59,7 +59,7 @@ if(!isset($_SESSION['id']))
                    <div class="col-md-3"></div>
                    <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-            <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
+            <form method="post" action="http://chemfluence.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
 			<input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
