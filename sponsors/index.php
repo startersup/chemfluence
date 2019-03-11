@@ -160,19 +160,17 @@ $_SESSION['redirect']='/sponsors';
 
         <footer class="footer top right">
            <div class="icons">
-               <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
-              <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i>
+               <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+              <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i></a>
                   <a href="https://instagram.com/chemfluence" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
                 </center>
                 <br>
-            </div>
-            <center>
+               <center>
                 <p class="footerp">Copyrights &copy 2019 Chemfluence. All Rights Reserved</p>
                 <span class="craft">UI design by <a href="https://www.behance.net/prawinronab0fb" target="_blank">SK</a> | Crafted By <a href="http://www.seotechie.tk/" target="_blank">SEOTechie</a></span>
             </center>
             <br>
-        </footer>
-
+            </div></footer>
     </section>
     <script></script>
     <script>
