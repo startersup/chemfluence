@@ -165,7 +165,7 @@ if(!isset($_SESSION['id']))
                           <div class="container1">
                         <form method="post" action="">
                         <p>Order Id</p>
-                            <input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
+                            <input type="text" class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>
                         <p>Student Name</p>
                              <input type="text" class="form-control"  value="<?php echo $name; ?>" name="pwd" disabled>
                              <p>Subscribed Event</p>
