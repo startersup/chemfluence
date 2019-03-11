@@ -32,27 +32,6 @@ if($isValidChecksum == "TRUE") {
 		$number=$row['number'];
 		$dept=$row['dept'];
 		$college=$row['college'];
-		if($_SESSION['name']=="Paper Presentation" || $_SESSION['name']=="Poster" || $_SESSION['name']=="Case Study"||$_SESSION['name']=="Workshop-Aspen"||$_SESSION['name']=="Workshop-Ansys")
-		{
-			$sql="select * from spotlight where id='$id' AND event='".$_SESSION['name']."'";
-			$res=mysqli_query($conn,$sql);
-			$count=mysqli_num_rows($res);
-			if($count>0)
-			{
-				$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','".$_SESSION['name']."')";
-				mysqli_query($conn,$sql);
-				$sql ="UPDATE spotlight SET payment='Paid' where id='$id' AND event='".$_SESSION['name']."'";
-				mysqli_query($conn,$sql);
-			}
-			else
-			{
-			$sql ="INSERT into payinfo (orderid,userid,type) VALUES('".$_SESSION['orderid']."','$id','".$_SESSION['name']."')";
-			mysqli_query($conn,$sql);
-			$sql = "INSERT into spotlight (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Paid')";
-			$res=mysqli_query($conn,$sql);
-	  	}
-		}
-		else {
 		$sql="select * from events where id='$id' AND event='".$_SESSION['name']."'";
 		$res=mysqli_query($conn,$sql);
 		$count=mysqli_num_rows($res);
@@ -72,19 +51,15 @@ if($isValidChecksum == "TRUE") {
 		$sql ="UPDATE events SET payment='Paid' where id='$id'";
 		mysqli_query($conn,$sql);
 	}
-}
 
-         $subject ="Greetings From Petrovision";
-
-
+$subject ="Greetings From Petrovision";
 $headers = "";
-   $to      = $mail;
+$to      = $mail;
 $headers .= "From: Petrovision <info@petrovision.in> \r\n";
 $headers .= "Reply-To: Petrovision <info@petrovision.in> \r\n"."X-Mailer: PHP/";// . phpversion();
 $headers .= "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
-
-    $message .= '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
+$message .= '<body link="#00a5b5" vlink="#00a5b5" alink="#00a5b5">
 
 <table class=" main contenttable" align="center" style="font-weight: normal;border-collapse: collapse;border: 0;margin-left: auto;margin-right: auto;padding: 0;font-family: Arial, sans-serif;color: #555559;background-color: white;font-size: 16px;line-height: 26px;width: 600px;">
 		<tr>

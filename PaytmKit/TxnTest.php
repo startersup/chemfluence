@@ -9,7 +9,7 @@ if(!isset($_SESSION['id']))
 	header("Cache-Control: no-cache");
 	header("Expires: 0");
 	$id= $_SESSION['id'];
-	$conn=mysqli_connect('localhost','u453074143_petro','petrovision','u453074143_stud');
+	$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
 	$sql="select name from students where id='$id'";
 	$res=mysqli_query($conn,$sql);
 	$row=mysqli_fetch_array($res);
@@ -59,7 +59,7 @@ if(!isset($_SESSION['id']))
                    <div class="col-md-3"></div>
                    <div class="col-md-6">
             <div class="card white" style="background-color:#ffffff;color:#000000;border:none;border-radius:12px;">
-            <form method="post" action="http://petrovision.co.in/PaytmKit/pgRedirect.php">
+            <form method="post" action="http://chemfluence.in/PaytmKit/pgRedirect.php">
     <div class="form-group">
       <label>Order Id</label>
 			<input class="form-control" name="ORDER_ID" value="<?php  $_SESSION['orderid']= "ORDS" . rand(10000,99999999); echo $_SESSION['orderid'];?>" disabled>

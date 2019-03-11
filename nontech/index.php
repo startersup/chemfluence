@@ -150,7 +150,7 @@ $_SESSION['amount']="250";
             <div class="row">
                 <div class="col-md-9">
                     <center>
-                        <h3>Online Events</h3>
+                        <h3>Non-Technical Events</h3>
                         <br>
                         <div class="card eventspace" id="borderimg2">
                             <div class="row">
@@ -231,7 +231,7 @@ $_SESSION['amount']="250";
                     <center><p>Choose your suitable options according to your convenience</p>
                           <div class="row">
                     <div class="col-md-6"><center><p>Paying Through Online?</p><br>
-         <a href=""><button class="button button2">Click here</button></a>
+         <a href="/PaytmKit/TxnTest.php"><button class="button button2">Click here</button></a>
 
                     </center></div>
                           <div class="col-md-6"><center><p>Paying Onspot?</p><br>
