@@ -161,7 +161,7 @@ if(!isset($_SESSION['id']))
             <div class="row">
                 <div class="col-md-9 card eventspace" id="borderimg1">
                
-                       <h3>You are one step away from payment!</h3>
+                       <h3>You are one step away from payment!</h3><hr>
                           <div class="container1">
                         <form method="post" action="http://chemfluence.in/PaytmKit/pgRedirect.php">
                         <p>Order Id</p>
