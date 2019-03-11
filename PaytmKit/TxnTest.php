@@ -177,7 +177,7 @@ if(!isset($_SESSION['id']))
 			<input type="hidden" name="CUST_ID" Value="CUST001">
 			<input type="hidden" name="ORDER_ID" value="<?php echo $_SESSION['orderid'];?>">
                             
-                            <br> <input type="submit" class="button1" value="Proceed to Checkout">
+                            <br> <input type="submit" class="btn btn-success" value="Proceed to Checkout">
                         </form>
  </div>
                     </center>
