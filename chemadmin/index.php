@@ -186,7 +186,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
             ?></tbody>
            
     </table><br>
-           <button class="button1 button" >Print</button>
+           <button class="button1 button" onclick="printDiv()">Print</button>
 	</div>
 </div>
                 </div>
