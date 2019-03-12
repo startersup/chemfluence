@@ -157,7 +157,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
    <center> <h3>Student Details</h3></center>
  
 	<div class="row" >
-	<table id="example" class="table  table-bordered" id="printTable" style="width:100%;background-color:#ffffff;">
+	<table id="example" class="table  table-bordered" style="width:100%;background-color:#ffffff;">
         <thead>
             <tr>
                 <th>Name</th>
@@ -185,8 +185,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
              }
             ?></tbody>
            
-    </table><br>
-           <button class="button1 button" >Print</button>
+    </table>
 	</div>
 </div>
                 </div>
