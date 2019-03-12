@@ -491,7 +491,7 @@ a.button {
     text-align:center; 
     font-weight:700;
 }
-.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .routemain h3, .loginmain h3, .contactmain h3, .workmain h3, .accomain h3, .sponmain h3
+.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .admin h3, .routemain h3, .loginmain h3, .contactmain h3, .workmain h3, .accomain h3, .sponmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
