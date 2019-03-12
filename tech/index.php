@@ -161,15 +161,31 @@ $_SESSION['amount']="250";
                                 </div>
                                 <div class="col-md-9 span">
                                     <h4> PAPER PRESENTATION</h4>
-                                   <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
-                                    <p>Based on evaluation of abstract 10 participants will be selected.</p>
-                                    <p>Abstract are to be sent to mail id.</p>
-
-                                    <p><span> Topic: Any Engineering Process </span></p>
+                                   <p>Here is an amazing opportunity to showcase your ideas on an unique and
+massive platform in the form of well-integrated and
+intriguing presentation. It strives to explore the inquisitiveness of young
+minds by giving their incredulous ideas in a definitive direction.</p>
+                                    <p>Participants - Max. 3 members per team.</p>
+                                    
                                      <div id="demo6" class="collapse">
-                                         <p>Those 10 will be contacted through mail before March 23, 10:00 pm</p>
-                                    <p> On the day of presentation, panel of judges will decide the Top 3.</p>
-                                       <p><span>Judge decision is final.</span></p>
+
+                                        <h3>TOPICS</h3>
+                                        <p> Solid waste management.</p>
+                                        <p> Environmental issues and climatic changes.</p>
+                                        <p> Bio fuel and solvents.</p>
+                                        <p> Solar distillation.</p>
+                                        <p> Thermal and electrochemical technology.</p>
+                                        <p> Zero waste processing.</p>
+                                        <p> Air pollution control and bio filters.</p>
+                                        <p> Water technology</p>
+
+                                       <h3>RULES</h3>
+                                       <p> Send your abstract to chem19events@gmail.com</p>
+                                       <p> Deadline for submission is March 22 nd .</p>
+                                       <p> Abstract should be one page in pdf format.</p>
+                                       <p> Selected abstracts will be posted in website https://www.chemfluence.in and in instagram page https://www.instagram.com/chemfluence/</p>
+                                       <p> Send the title of your paper as the subject of mail.</p>
+                                       <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
                                    <button onclick="set('Paper Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
