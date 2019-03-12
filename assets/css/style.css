@@ -15,14 +15,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 table{
     width:100%;
 }
-@media print {
-  * {
-    display: none;
-  }
-  #printableTable {
-    display: block;
-  }
-}
+
 table th
 {
     font-family: 'Josefin Sans', sans-serif;
@@ -461,7 +454,7 @@ a.button {
     margin: 0!important;
     min-height:100vh;
     height:100%;
-    background: url(../images/plain-01.jpg) no-repeat center center;
+    background: url() no-repeat center center;
      background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
