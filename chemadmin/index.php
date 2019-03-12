@@ -1,10 +1,5 @@
 <?php
 session_start();
-if(!isset($_SESSION['id']))
-{
-  $_SESSION['redirect']='/success';
-  header('location: /login/index.php');
-}
 $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
  ?>
 
