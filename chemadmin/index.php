@@ -203,7 +203,18 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
             <br>
             </div></footer>
     </section>
-    <script></script>
+    <script>function printData()
+{
+   var divToPrint=document.getElementById("printTable");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+}
+
+$('button').on('click',function(){
+printData();
+})</script>
     <script>
         function openNav() {
             document.getElementById("myNav").style.height = "100%";
@@ -233,9 +244,7 @@ function checkAll(bx) {
     }
   }
 }</script>
-    <script>
-        
-       </script>
+
 
     <div class="icon-bar hidden-sm hidden-xs">
         <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>

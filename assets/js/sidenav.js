@@ -11,15 +11,4 @@ $(window).on('load', function() { // makes sure the whole site is loaded
 })
 
 
- function printData()
-{
-   var divToPrint=document.getElementById("printTable");
-   newWin= window.open("");
-   newWin.document.write(divToPrint.outerHTML);
-   newWin.print();
-   newWin.close();
-}
-
-$('button').on('click',function(){
-printData();
-})
+ 
