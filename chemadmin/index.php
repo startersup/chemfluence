@@ -216,7 +216,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
         
          {     
 
-      "aLengthMenu": [[5, 10, 25, -1], [5, 10, 25, "All"]],
+      "aLengthMenu": [[10, 25, 50, 100, -1], [10, 25, 50, 100, "All"]],
         "iDisplayLength": 5
        } 
         );
