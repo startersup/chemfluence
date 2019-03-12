@@ -16,12 +16,22 @@ table{
     width:100%;
 }
 
-table th,tr,td
+table th,
 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    text-align: center;
+    font-weight:700;
+    color:#000000;
+}
+table td
+{
+    {
     font-family: 'Josefin Sans', sans-serif;
     font-size:17px;
     text-align: center;
     font-weight:400;
+}
 }
 #example_filter{
     float:right;
