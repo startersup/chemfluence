@@ -166,6 +166,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                 <th>Department</th>
                 <th>College</th>
                 <th>Accomodation</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -182,7 +183,8 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                <td>'.$row['accom'].'</td>
                 <td>    <form action="delete.php" method="post">
           <input type="hidden" name="name" value="">
-          <input type="submit" name="submit" value="Delete">
+          <button type="submit" name="submit" class="btn btn-success">
+i class="fa fa-trash-o"></i></button>
           </form></td>               
             </tr>';
              }
