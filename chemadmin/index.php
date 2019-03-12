@@ -157,7 +157,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
    <center> <h3>Student Details</h3></center>
  
 	<div class="row" >
-	<table class="table  table-bordered" id="printTable" style="width:100%;background-color:#ffffff;">
+	<table class="table  table-bordered" id="table" style="width:100%;background-color:#ffffff;">
         <thead>
             <tr>
                 <th>Name</th>
@@ -186,7 +186,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
             ?></tbody>
            
     </table><br>
-           <button class="button1 button" onclick="printDiv()">Print</button>
+           <button class="button1 button" onclick="printDiv();">Print</button>
 	</div>
 </div>
                 </div>
@@ -206,12 +206,20 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
     </section>
   <script>
     function printDiv() {
-        var divToPrint = document.getElementById('areaToPrint');
-        newWin = window.open("");
-        newWin.document.write(divToPrint.outerHTML);
-        newWin.print();
-        newWin.close();
-   }
+    var divToPrint = document.getElementById('table');
+    var htmlToPrint = '' +
+        '<style type="text/css">' +
+        'table th, table td {' +
+        'border:1px solid #000;' +
+        'padding;0.5em;' +
+        '}' +
+        '</style>';
+    htmlToPrint += divToPrint.outerHTML;
+    newWin = window.open("");
+    newWin.document.write(htmlToPrint);
+    newWin.print();
+    newWin.close();
+}
 </script>
     <script>
         function openNav() {
