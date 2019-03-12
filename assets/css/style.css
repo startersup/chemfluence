@@ -12,7 +12,21 @@ body{ font-family: 'ProximaNovaLtLight';}
 ::-webkit-scrollbar {
   width: 10px;
 }
-
+table{
+    width:100%;
+}
+#example_filter{
+    float:right;
+}
+#example_paginate{
+    float:right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
