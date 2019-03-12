@@ -184,7 +184,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                 <td>    <form action="delete.php" method="post">
           <input type="hidden" name="name" value="">
          
-<i class="fa fa-trash-o btn btn-danger" name="submit" type="submit"></i>
+<input class="fa fa-trash-o btn btn-danger" name="submit" type="submit">
           </form></td>               
             </tr>';
              }
