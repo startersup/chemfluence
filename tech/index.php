@@ -301,7 +301,7 @@ information on them is well laid out, legible and attractively presented./p>
                                     <h4> DUMB CHARADES</h4>
                                     <p><span>Description :</span> Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. They can use chalk and board in process. But shouldn’t depict
                                         it directly.</p>
-                                    <p><span>Participants :</span> 1 member / team.</p>
+                                    <p><span>Participants :</span> 3 member / team.</p>
                                     <div id="demo2" class="collapse">
                                         <h4>Selection & Judgement:</h4>
                                         <p>Teams that identify the chemicals are arranged based on time taken to find in ascending order.</p>
@@ -353,7 +353,7 @@ solve in the right way.</p>
                                 <div class="col-md-9 span">
                                     <h4> RUMMY WITH CHEMICALS</h4>
                                     <p><span>Description :</span> A normal rummy game with joker, instead of decks of A,K,Q,J,…. ,Game is with chemicals.</p>
-                                    <p><span>Participants :</span> 3 members / team.</p>
+                                    <p><span>Participants :</span>1 member / team. </p>
 
                                     <div id="demo3" class="collapse">
                                         <h4>Selection & Judgement:</h4>
@@ -428,7 +428,8 @@ solve in the right way.</p>
                                 <div class="col-md-9 span">
                                     <h4> MOCK INTERVIEW</h4>
                                     <p><span>Participants :</span>  20 members.</p>
-                                    <p>Replica of original HR, Technical interview for chemical engineers</p>
+                                    <p>Replica of original HR and technical interview for chemical engineers.</p>
+<p>1 member /team</p>
                                     <p>Best 3 are selected based on the answers by participants</p>
                                      <div id="demo8" class="collapse">
                                        <p><span>Interviewer decision is final.</span></p>
@@ -449,7 +450,6 @@ solve in the right way.</p>
                                     <h4> CHEM – CONNEXIONS</h4>
                                     <p><span>Description :</span> It is inspired from popular reality show. Here we will be using
 chemical engineering terms instead of normal words.</p>
-                                    <p><span>Time duration :</span>60 seconds</p>
                                     <p><span>Participants :</span>   2 members / team.</p>
                                      <div id="demo9" class="collapse">
                                           <h4>Selection & Judgement:</h4>
@@ -477,7 +477,6 @@ of the team.</p>
 disasters around the world. You must unwind the clock, imagine
 yourself in the situation, crack your brain and identify the cause.
 </p>
-                                    <p><span>Time duration :</span>10 minutes</p>
                                     <p><span>Participants :</span>    3 members / team (max).</p>
                                      <div id="demo11" class="collapse">
                                           <h4>Selection & Judgement:</h4>
