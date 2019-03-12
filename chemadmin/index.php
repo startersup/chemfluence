@@ -145,7 +145,6 @@ $_SESSION['redirect']='/sponsors';
     </nav>
     <section class="admin">
         <div class="container top">
-                <div class="col-md-12 card eventspace" id="borderimg2">
                    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <div class="container">
@@ -486,8 +485,6 @@ $_SESSION['redirect']='/sponsors';
 	</div>
 </div>
                 </div>
-            </div>
-
         <footer class="footer top right">
            <div class="icons">
                <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a>
