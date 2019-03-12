@@ -180,6 +180,10 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                  <td>'.$row['dept'].'</td>
                <td>'.$row['college'].'</td>
                <td>'.$row['accom'].'</td>
+                <td>    <form action="delete.php" method="post">
+          <input type="hidden" name="name" value="">
+          <input type="submit" name="submit" value="Delete">
+          </form></td>               
             </tr>';
              }
             ?></tbody>
