@@ -15,6 +15,14 @@ body{ font-family: 'ProximaNovaLtLight';}
 table{
     width:100%;
 }
+
+table th,tr,td
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:17px;
+    text-align: center;
+    font-weight:400;
+}
 #example_filter{
     float:right;
 }
