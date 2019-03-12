@@ -212,6 +212,8 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
         'table th, table td {' +
         'border:1px solid #000;' +
         '}' +
+        'td{ padding:2px;' +
+    '}'+
         '</style>';
     htmlToPrint += divToPrint.outerHTML;
     newWin = window.open("");
