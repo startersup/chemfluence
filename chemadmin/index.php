@@ -155,7 +155,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <div class="container">
    <center> <h3>Student Details</h3></center>
-    <button class="button2 button">Print Details</button>
+  
 	<div class="row" >
 	<table id="example" class="table  table-bordered" id="printTable" style="width:100%;background-color:#ffffff;">
         <thead>
@@ -185,7 +185,8 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
              }
             ?></tbody>
            
-    </table>
+    </table><br>
+          <button class="button2 button">Print Details</button>
 	</div>
 </div>
                 </div>
