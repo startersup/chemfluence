@@ -157,7 +157,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
    <center> <h3>Student Details</h3></center>
  <br><br>
 	<div class="row" >
-	<table class="table  table-bordered" id="table" style="width:100%;background-color:#ffffff;">
+	<table class="table  table-bordered" id="example" style="width:100%;background-color:#ffffff;">
         <thead>
             <tr>
                 <th>Name</th>
@@ -205,7 +205,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
     </section>
   <script>
     function printDiv() {
-    var divToPrint = document.getElementById('table');
+    var divToPrint = document.getElementById('example');
     var htmlToPrint = '' +
         '<style type="text/css">' +
         'table th, table td {' +
