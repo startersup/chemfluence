@@ -209,7 +209,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
     var divToPrint = document.getElementById('table');
     var htmlToPrint = '' +
         '<style type="text/css">' +
-        'table th, table td {' +
+        'table th, table tr {' +
         'border:1px solid #000;' +
         'padding;5px;' +
         '}' +
