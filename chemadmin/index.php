@@ -6,7 +6,7 @@ if(!isset($_SESSION['id']))
   header('location: /login/index.php');
 }
 $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
-$result = mysqli_query($conn,"SELECT * FROM students"); ?>
+ ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -167,15 +167,21 @@ $result = mysqli_query($conn,"SELECT * FROM students"); ?>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                  
-                <td><?php echo $name; ?></td>
-                <td><?php echo $var; ?></td>
-                <td>Edinburgh</td>
-                <td>61</td>
-                <td>2011/04/25</td>
-                <td>$320,800</td>
-            </tr>
+           <?php
+           $sql= "SELECT * FROM students";
+           $query= mysqli_query($conn,$sql);
+           while($row = mysqli_fetch_assoc($query)) { 
+            echo '<tr>
+                <td>'.$row['name'].'</td>
+                <td>'.$row['email'].' </td>
+                 <td>'.$row['number'].'</td>
+                 <td>'.$row['dept'].'</td>
+               <td>'.$row['college'].'</td>
+               <td>'.$row['accom'].'</td>
+              </td>
+            </tr>';
+             }
+            ?></tbody>
            
     </table>
 	</div>
