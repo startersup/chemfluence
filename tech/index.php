@@ -427,7 +427,7 @@ solve in the right way.</p>
                                 </div>
                                 <div class="col-md-9 span">
                                     <h4> MOCK INTERVIEW</h4>
-                                    <p>Replica of original HR and technical interview for chemical engineers.</p>
+                                    <p><span>Description :</span> Replica of original HR and technical interview for chemical engineers.</p>
                                         <p><span>Participants :</span>  1 member / team.</p>
                                     <p>Best 3 are selected based on the answers by participants</p>
                                      <div id="demo8" class="collapse">
