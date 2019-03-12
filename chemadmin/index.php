@@ -143,10 +143,10 @@ $_SESSION['redirect']='/sponsors';
 
         </div>
     </nav>
-    <section class="sponmain">
+    <section class="admin">
         <div class="container top">
             <div class="row">
-                <div class="col-md-9 card eventspace" id="borderimg2">
+                <div class="col-md-12 card eventspace" id="borderimg2">
                    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <div class="container">
