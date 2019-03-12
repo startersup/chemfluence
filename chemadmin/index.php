@@ -204,18 +204,11 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
             <br>
             </div></footer>
     </section>
-    <script>function printData()
-{
-   var divToPrint=document.getElementById("printTable");
-   newWin= window.open("");
-   newWin.document.write(divToPrint.outerHTML);
-   newWin.print();
-   newWin.close();
-}
-
-$('button').on('click',function(){
-printData();
-})</script>
+    <script>       function printDiv() {
+         window.frames["print_frame"].document.body.innerHTML = document.getElementById("printableTable").innerHTML;
+         window.frames["print_frame"].window.focus();
+         window.frames["print_frame"].window.print();
+       }</script>
     <script>
         function openNav() {
             document.getElementById("myNav").style.height = "100%";
