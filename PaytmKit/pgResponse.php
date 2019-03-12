@@ -227,7 +227,7 @@ $message .= '<html>
 <body>
 	<header class="site-header" id="header">
 		<h2 class="site-header__title" data-lead-id="site-header-title">Failure !</h2>
-       <center><h3>There is an error happened during the transaction, please try again or reach us at :</h3></center>
+       <center><h3>There is an error happened during the transaction, please try again or< a href="http://chemfluence.in/contact"> reach us</a> </h3></center>
 	</header></body></html>';
 	}
 
