@@ -207,7 +207,7 @@ present quite complex material, and so it is important that the
 information on them is well laid out, legible and attractively presented./p>
                                     <p><span>Participants - Max. 3 members per team.</span></p>
                                     
-                                     <div id="demo6" class="collapse">
+                                     <div id="demo7" class="collapse">
 
                                         <h3>TOPICS</h3>
                                         <p> Solid waste management.</p>
