@@ -1,7 +1,13 @@
 <?php
 session_start();
-$_SESSION['redirect']='/sponsors';
-?>
+if(!isset($_SESSION['id']))
+{
+  $_SESSION['redirect']='/success';
+  header('location: /login/index.php');
+}
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+$result = mysqli_query($conn,"SELECT * FROM students"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -163,8 +169,8 @@ $_SESSION['redirect']='/sponsors';
         <tbody>
             <tr>
                   
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
+                <td><?php echo $name; ?></td>
+                <td><?php echo $var; ?></td>
                 <td>Edinburgh</td>
                 <td>61</td>
                 <td>2011/04/25</td>
