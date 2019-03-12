@@ -9,3 +9,17 @@ $(window).on('load', function() { // makes sure the whole site is loaded
   $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website. 
   $('body').delay(10000).css({'overflow':'visible'});
 })
+
+
+ function printData()
+{
+   var divToPrint=document.getElementById("printTable");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+}
+
+$('button').on('click',function(){
+printData();
+})

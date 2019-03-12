@@ -233,18 +233,9 @@ function checkAll(bx) {
     }
   }
 }</script>
-    <script>function printData()
-{
-   var divToPrint=document.getElementById("printTable");
-   newWin= window.open("");
-   newWin.document.write(divToPrint.outerHTML);
-   newWin.print();
-   newWin.close();
-}
-
-$('button').on('click',function(){
-printData();
-})</script>
+    <script>
+        
+       </script>
 
     <div class="icon-bar hidden-sm hidden-xs">
         <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
