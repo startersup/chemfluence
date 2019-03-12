@@ -154,8 +154,10 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <div class="container">
+   <center> <h3>Student Details</h3></center>
+    <button class="button1">Print Details</button>
 	<div class="row" >
-	<table id="example" class="table  table-bordered" style="width:100%;background-color:#ffffff;">
+	<table id="example" class="table  table-bordered" id="printTable" style="width:100%;background-color:#ffffff;">
         <thead>
             <tr>
                 <th>Name</th>
@@ -231,6 +233,18 @@ function checkAll(bx) {
     }
   }
 }</script>
+    <script>function printData()
+{
+   var divToPrint=document.getElementById("printTable");
+   newWin= window.open("");
+   newWin.document.write(divToPrint.outerHTML);
+   newWin.print();
+   newWin.close();
+}
+
+$('button').on('click',function(){
+printData();
+})</script>
 
     <div class="icon-bar hidden-sm hidden-xs">
         <a href="https://www.facebook.com/chemfluence/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
