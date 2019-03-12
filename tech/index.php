@@ -200,17 +200,33 @@ minds by giving their incredulous ideas in a definitive direction.</p>
                                     </center>
                                 </div>
                                 <div class="col-md-9 span">
-                                    <h4>  POSTER PRESENTATION</h4>
-                                   <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
-                                    <p>Based on evaluation of abstract 10 participants will be selected.</p>
-                                    <p>Abstract are to be sent to mail id.</p>
-                                    <p><span> Topics: </span>1. Nanotech for Future, 2. Energy & Conservation, 3. Novel
-reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
-5. Waste water management.</p>
-                                     <div id="demo7" class="collapse">
-                                         <p>Those 10 will be contacted through mail before March 23, 10:00 pm</p>
-                                    <p> On the day of presentation, panel of judges will decide the Top 3.</p>
-                                       <p><span>Judge decision is final.</span></p>
+                                  <h4> POSTER PRESENTATION</h4>
+                                   <p>Posters are often used to share information and are an important part of
+many conferences, seminars and exhibitions. They may be used to
+present quite complex material, and so it is important that the
+information on them is well laid out, legible and attractively presented./p>
+                                    <p><span>Participants - Max. 3 members per team.</span></p>
+                                    
+                                     <div id="demo6" class="collapse">
+
+                                        <h3>TOPICS</h3>
+                                        <p> Solid waste management.</p>
+                                        <p> Environmental issues and climatic changes.</p>
+                                        <p> Bio fuel and solvents.</p>
+                                        <p> Solar distillation.</p>
+                                        <p> Thermal and electrochemical technology.</p>
+                                        <p> Zero waste processing.</p>
+                                        <p> Air pollution control and bio filters.</p>
+                                        <p> Water technology</p>
+
+                                       <h3>RULES</h3>
+                                       <p> Send your abstract to chem19events@gmail.com</p>
+                                       <p> Deadline for submission is March 22 nd .</p>
+                                       <p> Abstract should be one page in pdf format.</p>
+                                       <p> Selected abstracts will be posted in website https://www.chemfluence.in and in instagram page https://www.instagram.com/chemfluence/</p>
+                                       <p> Send the title of your paper as the subject of mail.</p>
+                                       <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
+                                       <P> Poster layout – open size.</P>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
                                     <button onclick="set('Poster Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
