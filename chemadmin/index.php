@@ -207,13 +207,6 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
   <script>
     function printDiv() {
     var divToPrint = document.getElementById('table');
-    var htmlToPrint = '' +
-        '<style type="text/css">' +
-        'table th, table td {' +
-        'border:1px solid #000;' +
-        'padding;0.5em;' +
-        '}' +
-        '</style>';
     htmlToPrint += divToPrint.outerHTML;
     newWin = window.open("");
     newWin.document.write(htmlToPrint);
