@@ -15,7 +15,14 @@ body{ font-family: 'ProximaNovaLtLight';}
 table{
     width:100%;
 }
-
+@media print {
+  * {
+    display: none;
+  }
+  #printableTable {
+    display: block;
+  }
+}
 table th
 {
     font-family: 'Josefin Sans', sans-serif;
