@@ -165,7 +165,7 @@ $_SESSION['amount']="250";
 massive platform in the form of well-integrated and
 intriguing presentation. It strives to explore the inquisitiveness of young
 minds by giving their incredulous ideas in a definitive direction.</p>
-                                    <p>Participants - Max. 3 members per team.</p>
+                                    <p><span>Participants - Max. 3 members per team.</span></p>
                                     
                                      <div id="demo6" class="collapse">
 
