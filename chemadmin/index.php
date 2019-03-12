@@ -148,8 +148,8 @@ $_SESSION['redirect']='/sponsors';
                    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
 <div class="container">
-	<div class="row" style="background-color#ffffff;">
-	<table id="example" class="table table-striped table-bordered" style="width:100%">
+	<div class="row" >
+	<table id="example" class="table table-striped table-bordered" style="width:100%;background-color:#ffffff;">
         <thead>
             <tr>
                 <th><input type="checkbox" onclick="checkAll(this)"></th>
