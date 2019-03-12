@@ -148,7 +148,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
         <div class="container top">
                    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
-<div class="container" id="borderimg1" style="background-color:#ffffff;">
+<div class="container" id="borderimg2" style="background-color:#ffffff;">
    <center> <h3>Student Details</h3></center>
  <br><br>
 	<div class="row" >
