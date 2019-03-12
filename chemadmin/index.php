@@ -181,7 +181,7 @@ $conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u14878154
                  <td>'.$row['dept'].'</td>
                <td>'.$row['college'].'</td>
                <td>'.$row['accom'].'</td>
-                <td>    <form action="delete.php?name=".$row['name']." method="post">
+                <td>    <form action="delete.php?number=".$row['number']." method="post">
           <input type="hidden" name="name" value="">
          
 <button class="btn btn-primary fa fa-trash-o"></button>
