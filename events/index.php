@@ -171,8 +171,8 @@ $_SESSION['redirect']='/events';
                     </center>
 
                        <div class="card eventspace topper" id="borderimg2">
+                           <h3> General Registration</h3><br>
            <P><b style="color:#000000;">Note:</b> On paying general registration fee participants can participate in all events (excluding workshop).</P>
-                           <br><h3> General Registration</h3><br>
                            <ul>
                         <li><p> Paying Online - ₹250</p></li>
                        <li><p>Paying Onspot - ₹300</p></li></ul>
