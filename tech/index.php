@@ -262,7 +262,7 @@ information on them is well laid out, legible and attractively presented./p>
                                   {
                                     echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
                                   else if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick=set('PosterPresentation') class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    echo '<button onclick="set(\'Poster Presentation\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                   else if($_SESSION['mode']=="Paid"){
                                       echo "<a onclick='direct('Poster Presentation')'><button class='button button2'>Subscribe for Event</button></a>";}
                                       ?>
