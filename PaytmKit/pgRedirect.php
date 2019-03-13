@@ -25,11 +25,11 @@ $paramList["TXN_AMOUNT"] = $TXN_AMOUNT;
 $paramList["WEBSITE"] = PAYTM_MERCHANT_WEBSITE;
 $paramList["CALLBACK_URL"] = "http://chemfluence.in/PaytmKit/pgResponse.php";
 
-echo $ORDER_ID;
+/*echo $ORDER_ID;
 echo $CUST_ID;
 echo $INDUSTRY_TYPE_ID;
 echo $CHANNEL_ID;
-echo $TXN_AMOUNT;
+echo $TXN_AMOUNT;*/
 /*
 $paramList["CALLBACK_URL"] = "http://localhost/PaytmKit/pgResponse.php";
 $paramList["MSISDN"] = $MSISDN; //Mobile number of customer
@@ -61,7 +61,7 @@ $checkSum = getChecksumFromArray($paramList,PAYTM_MERCHANT_KEY);
 			</tbody>
 		</table>
 		<script type="text/javascript">
-		//	document.f1.submit();
+			document.f1.submit();
 		</script>
 	</form>
 </body>
