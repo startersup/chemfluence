@@ -2,6 +2,25 @@
 session_start();
 $_SESSION['redirect']='/nontechon';
 $_SESSION['amount']="250";
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+$sql="select * from payinfo where userid='$id' and type='general'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']="Paid";
+}
+else {
+      $_SESSION['mode']="Onspot";
+}
+if(!isset($_SESSION['id']))
+{
+  $log=1;
+}
+else {
+  $log=0;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -178,8 +197,15 @@ not be entertained.</p>
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                    <button onclick="set('tiktok')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Register for Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Tik Tok\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Tik Tok\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -203,8 +229,15 @@ not be entertained.</p>
                                         <p>The most liked photograph will be the winner.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                    <button onclick="set('Photography')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Register for Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Photography contest\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Photography contest\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                        <div class="card eventspace topper" id="borderimg2">
@@ -233,8 +266,15 @@ not be entertained.</p>
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo5">Read More...</button>
-                                    <button onclick="set('Meme contest')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Register for Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Meme contest\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Meme contest\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                                                <div class="card eventspace topper" id="borderimg2">
@@ -252,8 +292,15 @@ not be entertained.</p>
 
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
-                                    <button onclick="set('PUBG')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Register for Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Pubg\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Pubg\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                     </center>
@@ -325,6 +372,17 @@ not be entertained.</p>
                 };
                 xmlhttp.open("GET", "/set.php?q=" + str, true);
                 xmlhttp.send();
+        }
+        function direct(str)
+        {
+          var xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                window.location = "http://chemfluence.in/success";
+              }
+          };
+          xmlhttp.open("GET", "/set.php?q=" + str, true);
+          xmlhttp.send();
         }
     </script>
 

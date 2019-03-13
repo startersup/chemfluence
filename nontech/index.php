@@ -2,6 +2,25 @@
 session_start();
 $_SESSION['redirect']='/nontech';
 $_SESSION['amount']="250";
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+$sql="select * from payinfo where userid='$id' and type='general'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']="Paid";
+}
+else {
+      $_SESSION['mode']="Onspot";
+}
+if(!isset($_SESSION['id']))
+{
+  $log=1;
+}
+else {
+  $log=0;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -169,8 +188,15 @@ $_SESSION['amount']="250";
                                        <p><span>Judges decision are final</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                     <button onclick="set('Treasure Hunt')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Treasure Hunt\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Treasure Hunt\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                        <div class="card eventspace topper" id="borderimg2">
@@ -191,8 +217,15 @@ $_SESSION['amount']="250";
                                        <p><span>Organizers decision are final.</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                     <button onclick="set('Adzap')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Adzap\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Adzap\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                          <div class="card eventspace topper" id="borderimg2">
@@ -211,8 +244,15 @@ $_SESSION['amount']="250";
                                        <p><span>Organizers decision are final.</span> </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                    <button onclick="set('How stuff works')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe Event</button>
-                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'How stuff works\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'How stuff works\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                                </div>
                             </div>
                         </div>
                     </center>
@@ -284,6 +324,17 @@ $_SESSION['amount']="250";
                 };
                 xmlhttp.open("GET", "/set.php?q=" + str, true);
                 xmlhttp.send();
+        }
+        function direct(str)
+        {
+          var xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                window.location = "http://chemfluence.in/success";
+              }
+          };
+          xmlhttp.open("GET", "/set.php?q=" + str, true);
+          xmlhttp.send();
         }
     </script>
 

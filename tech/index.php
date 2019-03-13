@@ -207,16 +207,15 @@ minds by giving their incredulous ideas in a definitive direction.</p>
                                        <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
-                                  <?php
+                                    <?php
                                     if($log==1)
                                     {
-                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";
-                                    }
-                                  else if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Paper Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Paper Presentation\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a onclick='direct('Paper Presentation')'><button class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>
+                                      echo '<a onclick="direct(\'Paper Presentation\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>
                                 </div>
                             </div>
                         </div>
@@ -257,15 +256,15 @@ information on them is well laid out, legible and attractively presented./p>
                                        <P> Poster layout – open size.</P>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
-                                  <?php
-                                  if($log==1)
-                                  {
-                                    echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
-                                  else if($_SESSION['mode']=="Onspot"){
-                                    echo '<button onclick="set(\'Poster Presentation\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
-                                  else if($_SESSION['mode']=="Paid"){
-                                      echo "<a onclick='direct('Poster Presentation')'><button class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Poster Presentation\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Poster Presentation\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>
                                 </div>
                             </div>
                         </div>
@@ -296,11 +295,15 @@ information on them is well laid out, legible and attractively presented./p>
                                         </p>
                                      </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
                                       echo '<button onclick="set(\'Jigsaw Explorer\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
                                       echo '<a onclick="direct(\'Jigsaw Explorer\')"><button class="button button2">Subscribe for Event</button></a>';}
-                                      ?>                                </div>
+                                        ?>                              </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -326,11 +329,15 @@ information on them is well laid out, legible and attractively presented./p>
                                         <p>Judge decision is final.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Nerd Stop')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                  else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Nerd Stop')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                            </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Nerd Stop\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Nerd Stop\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                          </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
@@ -356,11 +363,15 @@ information on them is well laid out, legible and attractively presented./p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Dumb Charades')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                  else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Dumb Charades')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Dumb Charades\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Dumb Charades\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
                             </div>
                         </div>
                          <div class="card eventspace topper" id="borderimg2">
@@ -384,11 +395,15 @@ solve in the right way.</p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo12">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Solve it')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Solve it\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Solve it')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                      echo '<a onclick="direct(\'Solve it\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                            </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -418,11 +433,15 @@ solve in the right way.</p>
                                         <br>
                                       </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Rummy with chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                  else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Rummy with chemicals')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Rummy with chemicals\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Rummy with chemicals\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -444,11 +463,15 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('clash of chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Clash of chemicals\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('clash of chemicals')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                      echo '<a onclick="direct(\'Clash of chemicals\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
                             </div>
                         </div>
 
@@ -468,11 +491,15 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo10">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Debate')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Debate\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Debate')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                      echo '<a onclick="direct(\'Debate\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                               </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -491,11 +518,15 @@ solve in the right way.</p>
                                        <p><span>Interviewer decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo8">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Mock Interview')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                  else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Mock Interview')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Mock Interview\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Mock Interview\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                             </div>
                             </div>
                         </div>
                           <div class="card eventspace topper" id="borderimg2">
@@ -519,11 +550,15 @@ of the team.</p>
                                          <p>Based on number of teams rounds will be decided.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo9">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Chem-connexions')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Chem-connexions\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Chem-connexions')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                      echo '<a onclick="direct(\'Chem-connexions\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
                             </div>
                         </div>
                          <div class="card eventspace topper" id="borderimg2">
@@ -549,11 +584,15 @@ disputed.</p>
 of the team.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Minutes to disaster')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Minutes to disaster\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='set('Minutes to disaster')' class='button button2'>Subscribe for Event</button></a>";}
-                                      ?>                                </div>
+                                      echo '<a onclick="direct(\'Minutes to disaster\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                           </div>
                             </div>
                         </div>
                     </center>
