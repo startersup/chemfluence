@@ -194,6 +194,12 @@ $_SESSION['redirect']='/team';
                                              <h5>Joint Treasurer</h5>
                                            </center>
                                 </div>
+                                         <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/mani.JPG">
+                                    <center><h5><span>Manikandan</span><h5>
+                                             <h5>Senior Executive Member</h5>
+                                           </center>
+                                </div>
                             </div>
                                 <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
