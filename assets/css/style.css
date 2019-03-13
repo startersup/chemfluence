@@ -12,7 +12,38 @@ body{ font-family: 'ProximaNovaLtLight';}
 ::-webkit-scrollbar {
   width: 10px;
 }
+table{
+    width:100%;
+}
 
+table th
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:19px;
+    text-align: center;
+    font-weight:700;
+    color:#000000;
+}
+table td
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:17px;
+    text-align: center;
+    font-weight:400;
+
+}
+#example_filter{
+    float:right;
+}
+#example_paginate{
+    float:right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -418,6 +449,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.admin
+{
+    margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/plain-01.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 .team h5 span
 {
   font-family: 'Josefin Sans', sans-serif;
@@ -449,7 +491,7 @@ a.button {
     text-align:center; 
     font-weight:700;
 }
-.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .routemain h3, .loginmain h3, .contactmain h3, .workmain h3, .accomain h3, .sponmain h3
+.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .admin h3, .routemain h3, .loginmain h3, .contactmain h3, .workmain h3, .accomain h3, .sponmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;

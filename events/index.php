@@ -171,7 +171,12 @@ $_SESSION['redirect']='/events';
                     </center>
 
                        <div class="card eventspace topper" id="borderimg2">
-           <P><b style="color:#000000;">Note:</b> The Participant who are registering for technical events can also register for any non-tech events, there is no restrictions in registering for events.</P>
+                           <h3> General Registration</h3><br>
+           <P><b style="color:#000000;">Note:</b> On paying general registration fee participants can participate in all events (excluding workshop).</P>
+                           <ul>
+                        <li><p> Paying Online - ₹250</p></li>
+                       <li><p>Paying Onspot - ₹300</p></li></ul>
+                           
 
             </div>
                 </div>
@@ -182,8 +187,8 @@ $_SESSION['redirect']='/events';
 
         <footer class="footer right">
                 <div class="icons">
-               <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i>
-              <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i>
+               <center><a href="https://www.facebook.com/chemfluence/" target="_blank"><i class="fa fa-facebook" style="font-size:24px"></i></a>
+                   <a href="https://twitter.com/chemfluence" target="_blank">  <i class="fa fa-twitter" style="font-size:24px"></i></a>
                   <a href="https://instagram.com/chemfluence" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
                 </center>
             </div>

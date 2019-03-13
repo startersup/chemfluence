@@ -173,15 +173,31 @@ else {
                                 </div>
                                 <div class="col-md-9 span">
                                     <h4> PAPER PRESENTATION</h4>
-                                   <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
-                                    <p>Based on evaluation of abstract 10 participants will be selected.</p>
-                                    <p>Abstract are to be sent to mail id.</p>
-
-                                    <p><span> Topic: Any Engineering Process </span></p>
+                                   <p>Here is an amazing opportunity to showcase your ideas on an unique and
+massive platform in the form of well-integrated and
+intriguing presentation. It strives to explore the inquisitiveness of young
+minds by giving their incredulous ideas in a definitive direction.</p>
+                                    <p><span>Participants - Max. 3 members per team.</span></p>
+                                    
                                      <div id="demo6" class="collapse">
-                                         <p>Those 10 will be contacted through mail before March 23, 10:00 pm</p>
-                                    <p> On the day of presentation, panel of judges will decide the Top 3.</p>
-                                       <p><span>Judge decision is final.</span></p>
+
+                                        <h3>TOPICS</h3>
+                                        <p> Solid waste management.</p>
+                                        <p> Environmental issues and climatic changes.</p>
+                                        <p> Bio fuel and solvents.</p>
+                                        <p> Solar distillation.</p>
+                                        <p> Thermal and electrochemical technology.</p>
+                                        <p> Zero waste processing.</p>
+                                        <p> Air pollution control and bio filters.</p>
+                                        <p> Water technology</p>
+
+                                       <h3>RULES</h3>
+                                       <p> Send your abstract to chem19events@gmail.com</p>
+                                       <p> Deadline for submission is March 22 nd .</p>
+                                       <p> Abstract should be one page in pdf format.</p>
+                                       <p> Selected abstracts will be posted in website https://www.chemfluence.in and in instagram page https://www.instagram.com/chemfluence/</p>
+                                       <p> Send the title of your paper as the subject of mail.</p>
+                                       <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
                                     <?php if($_SESSION['mode']=="Paid"){
@@ -200,17 +216,33 @@ else {
                                     </center>
                                 </div>
                                 <div class="col-md-9 span">
-                                    <h4>  POSTER PRESENTATION</h4>
-                                   <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
-                                    <p>Based on evaluation of abstract 10 participants will be selected.</p>
-                                    <p>Abstract are to be sent to mail id.</p>
-                                    <p><span> Topics: </span>1. Nanotech for Future, 2. Energy & Conservation, 3. Novel
-reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
-5. Waste water management.</p>
+                                  <h4> POSTER PRESENTATION</h4>
+                                   <p>Posters are often used to share information and are an important part of
+many conferences, seminars and exhibitions. They may be used to
+present quite complex material, and so it is important that the
+information on them is well laid out, legible and attractively presented./p>
+                                    <p><span>Participants - Max. 3 members per team.</span></p>
+                                    
                                      <div id="demo7" class="collapse">
-                                         <p>Those 10 will be contacted through mail before March 23, 10:00 pm</p>
-                                    <p> On the day of presentation, panel of judges will decide the Top 3.</p>
-                                       <p><span>Judge decision is final.</span></p>
+
+                                        <h3>TOPICS</h3>
+                                        <p> Solid waste management.</p>
+                                        <p> Environmental issues and climatic changes.</p>
+                                        <p> Bio fuel and solvents.</p>
+                                        <p> Solar distillation.</p>
+                                        <p> Thermal and electrochemical technology.</p>
+                                        <p> Zero waste processing.</p>
+                                        <p> Air pollution control and bio filters.</p>
+                                        <p> Water technology</p>
+
+                                       <h3>RULES</h3>
+                                       <p> Send your abstract to chem19events@gmail.com</p>
+                                       <p> Deadline for submission is March 22 nd .</p>
+                                       <p> Abstract should be one page in pdf format.</p>
+                                       <p> Selected abstracts will be posted in website https://www.chemfluence.in and in instagram page https://www.instagram.com/chemfluence/</p>
+                                       <p> Send the title of your paper as the subject of mail.</p>
+                                       <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
+                                       <P> Poster layout – open size.</P>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
                                     <?php if($_SESSION['mode']=="Paid"){
@@ -295,7 +327,7 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                     <h4> DUMB CHARADES</h4>
                                     <p><span>Description :</span> Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. They can use chalk and board in process. But shouldn’t depict
                                         it directly.</p>
-                                    <p><span>Participants :</span> 1 member / team.</p>
+                                    <p><span>Participants :</span> 3 member / team.</p>
                                     <div id="demo2" class="collapse">
                                         <h4>Selection & Judgement:</h4>
                                         <p>Teams that identify the chemicals are arranged based on time taken to find in ascending order.</p>
@@ -353,7 +385,7 @@ solve in the right way.</p>
                                 <div class="col-md-9 span">
                                     <h4> RUMMY WITH CHEMICALS</h4>
                                     <p><span>Description :</span> A normal rummy game with joker, instead of decks of A,K,Q,J,…. ,Game is with chemicals.</p>
-                                    <p><span>Participants :</span> 3 members / team.</p>
+                                    <p><span>Participants :</span>1 member / team. </p>
 
                                     <div id="demo3" class="collapse">
                                         <h4>Selection & Judgement:</h4>
@@ -436,8 +468,8 @@ solve in the right way.</p>
                                 </div>
                                 <div class="col-md-9 span">
                                     <h4> MOCK INTERVIEW</h4>
-                                    <p><span>Participants :</span>  20 members.</p>
-                                    <p>Replica of original HR, Technical interview for chemical engineers</p>
+                                    <p><span>Description :</span> Replica of original HR and technical interview for chemical engineers.</p>
+                                        <p><span>Participants :</span>  1 member / team.</p>
                                     <p>Best 3 are selected based on the answers by participants</p>
                                      <div id="demo8" class="collapse">
                                        <p><span>Interviewer decision is final.</span></p>
@@ -461,7 +493,6 @@ solve in the right way.</p>
                                     <h4> CHEM – CONNEXIONS</h4>
                                     <p><span>Description :</span> It is inspired from popular reality show. Here we will be using
 chemical engineering terms instead of normal words.</p>
-                                    <p><span>Time duration :</span>60 seconds</p>
                                     <p><span>Participants :</span>   2 members / team.</p>
                                      <div id="demo9" class="collapse">
                                           <h4>Selection & Judgement:</h4>
@@ -492,7 +523,6 @@ of the team.</p>
 disasters around the world. You must unwind the clock, imagine
 yourself in the situation, crack your brain and identify the cause.
 </p>
-                                    <p><span>Time duration :</span>10 minutes</p>
                                     <p><span>Participants :</span>    3 members / team (max).</p>
                                      <div id="demo11" class="collapse">
                                           <h4>Selection & Judgement:</h4>
