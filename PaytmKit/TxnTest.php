@@ -160,7 +160,7 @@ if(!isset($_SESSION['id']))
         <div class="container top">
             <div class="row">
                 <div class="col-md-9 card eventspace" id="borderimg1">
-               
+
                        <h3>You are one step away from payment!</h3><hr>
                           <div class="container1">
                         <form method="post" action="http://chemfluence.in/PaytmKit/pgRedirect.php">
@@ -174,14 +174,14 @@ if(!isset($_SESSION['id']))
                              <input type="text" class="form-control"  value="<?php echo $_SESSION['amount'];?>" name="pwd" disabled>
 			<input type="hidden" value="WEB" name="CHANNEL_ID">
 			<input type="hidden" name="INDUSTRY_TYPE_ID" value="Retail">
-			<input type="hidden" name="CUST_ID" Value="CUST001">
+			<input type="hidden" name="CUST_ID" Value="<?php echo $_SESSION['id'];?>">
 			<input type="hidden" name="ORDER_ID" value="<?php echo $_SESSION['orderid'];?>">
-                            
+
                             <br> <input type="submit" class="btn btn-success" value="Proceed to Checkout">
                         </form>
  </div>
-              
-                       
+
+
                 </div>
             </div>
         </div>
@@ -218,7 +218,7 @@ if(!isset($_SESSION['id']))
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
 <style>
-    
+
     .container1
     {
         margin-left:10%;
@@ -228,4 +228,3 @@ if(!isset($_SESSION['id']))
 </body>
 
 </html>
-
