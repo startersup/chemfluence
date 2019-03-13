@@ -297,9 +297,9 @@ information on them is well laid out, legible and attractively presented./p>
                                      </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo">Read More...</button>
                                     <?php if($_SESSION['mode']=="Onspot"){
-                                    echo "<button onclick='set('Jigsaw Explorer')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                      echo '<button onclick="set(\'Jigsaw Explorer\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a onclick='direct('Jigsaw Explorer')'><button class='button button2'>Subscribe for Event</button></a>";}
+                                      echo '<a onclick="direct(\'Jigsaw Explorer\')"><button class="button button2">Subscribe for Event</button></a>';}
                                       ?>                                </div>
                             </div>
                         </div>
