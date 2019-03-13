@@ -7,16 +7,16 @@
 - Above details will be different for testing and production environment.
 */
 
-define('PAYTM_ENVIRONMENT', 'TEST'); // PROD
-define('PAYTM_MERCHANT_KEY', '5lHyjtv%vIQMgE%V'); //Change this constant's value with Merchant key received from Paytm.
-define('PAYTM_MERCHANT_MID', 'loNJUx50224707791982'); //Change this constant's value with MID (Merchant ID) received from Paytm.
+define('PAYTM_ENVIRONMENT', 'LIVE'); // PROD
+define('PAYTM_MERCHANT_KEY', 'I8dcQoMAPCdXr1b7'); //Change this constant's value with Merchant key received from Paytm.
+define('PAYTM_MERCHANT_MID', 'AzdcdH03156366249910'); //Change this constant's value with MID (Merchant ID) received from Paytm.
 define('PAYTM_MERCHANT_WEBSITE', 'WEBSTAGING'); //Change this constant's value with Website name received from Paytm.
 
-$PAYTM_STATUS_QUERY_NEW_URL='https://securegw-stage.paytm.in/merchant-status/getTxnStatus';
+$PAYTM_STATUS_QUERY_NEW_URL='https://secure-stage.paytm.in/merchant-status/getTxnStatus';
 $PAYTM_TXN_URL='https://securegw-stage.paytm.in/theia/processTransaction';
 if (PAYTM_ENVIRONMENT == 'PROD') {
-	$PAYTM_STATUS_QUERY_NEW_URL='https://securegw.paytm.in/merchant-status/getTxnStatus';
-	$PAYTM_TXN_URL='https://securegw.paytm.in/theia/processTransaction';
+	$PAYTM_STATUS_QUERY_NEW_URL='https://secure.paytm.in/merchant-status/getTxnStatus';
+	$PAYTM_TXN_URL='https://secure.paytm.in/theia/processTransaction';
 }
 
 define('PAYTM_REFUND_URL', '');
