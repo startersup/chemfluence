@@ -195,7 +195,7 @@ $_SESSION['redirect']='/team';
                                            </center>
                                 </div>
                                          <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/mani.JPG">
+                                   <img class="imager" src="../assets/images/mani.jpg">
                                     <center><h5><span>Manikandan</span><h5>
                                              <h5>Senior Executive Member</h5>
                                            </center>
