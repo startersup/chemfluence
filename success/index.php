@@ -24,7 +24,7 @@ else {
   $number=$row['number'];
   $dept=$row['dept'];
   $college=$row['college'];
-  $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','Onspot')";
+  $sql = "INSERT into events (event,id,name,number,email,dept,college,payment) VALUES ('".$_SESSION['name']."','".$_SESSION['id']."','$name',$number,'$mail','$dept','$college','".$_SESSION['mode']."')";
   $res=mysqli_query($conn,$sql);
 
     $subject ="Greetings From Chemfluence";
@@ -37,7 +37,7 @@ $headers .= "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\b";
 
     $message .= '
-    
+
     <html>
     <head>
     <title>Success | chemfluence 2k19 </title></head>
