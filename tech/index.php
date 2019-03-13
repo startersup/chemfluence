@@ -3,7 +3,7 @@ session_start();
 $_SESSION['redirect']='/tech';
 $_SESSION['amount']="250";
 $id= $_SESSION['id'];
-$conn=
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
 $sql="select * from payinfo where userid='$id' and type='general'";
 $res=mysqli_query($conn,$sql);
 $count=mysqli_num_rows($res);
@@ -178,7 +178,7 @@ massive platform in the form of well-integrated and
 intriguing presentation. It strives to explore the inquisitiveness of young
 minds by giving their incredulous ideas in a definitive direction.</p>
                                     <p><span>Participants - Max. 3 members per team.</span></p>
-                                    
+
                                      <div id="demo6" class="collapse">
 
                                         <h3>TOPICS</h3>
@@ -222,7 +222,7 @@ many conferences, seminars and exhibitions. They may be used to
 present quite complex material, and so it is important that the
 information on them is well laid out, legible and attractively presented./p>
                                     <p><span>Participants - Max. 3 members per team.</span></p>
-                                    
+
                                      <div id="demo7" class="collapse">
 
                                         <h3>TOPICS</h3>
