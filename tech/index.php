@@ -14,6 +14,13 @@ $_SESSION['mode']="Paid";
 else {
       $_SESSION['mode']="Onspot";
 }
+if(!isset($_SESSION['id']))
+{
+  $log=1;
+}
+else {
+  $log=0;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -200,10 +207,15 @@ minds by giving their incredulous ideas in a definitive direction.</p>
                                        <p> Presentation should be 7 – 10 mins + 5 mins questioning session.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                  <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";
+                                    }
+                                  else if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Paper Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else if($_SESSION['mode']=="Onspot"){
-                                      echo "<a href='/success'><button onclick='set('Paper Presentation')' class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo "<a href='/success'><button onclick='direct('Paper Presentation')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>
                                 </div>
                             </div>
@@ -245,10 +257,14 @@ information on them is well laid out, legible and attractively presented./p>
                                        <P> Poster layout – open size.</P>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
-                                    echo "<button onclick='set('Poster Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                  <?php
+                                  if($log==1)
+                                  {
+                                    echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
                                   else if($_SESSION['mode']=="Onspot"){
-                                      echo "<a href='/success'><button onclick='set('Poster Presentation')' class='button button2'>Subscribe for Event</button></a>";}
+                                    echo "<button onclick='set('Poster Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                  else if($_SESSION['mode']=="Paid"){
+                                      echo "<a onclick='direct('Poster Presentation')'><button class='button button2'>Subscribe for Event</button></a>";}
                                       ?>
                                 </div>
                             </div>
@@ -280,10 +296,10 @@ information on them is well laid out, legible and attractively presented./p>
                                         </p>
                                      </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Jigsaw Explorer')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else if($_SESSION['mode']=="Onspot"){
-                                      echo "<a href='/success'><button onclick='set('Jigsaw Explorer')' class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo "<a onclick='direct('Jigsaw Explorer')'><button class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
                         </div>
@@ -310,9 +326,9 @@ information on them is well laid out, legible and attractively presented./p>
                                         <p>Judge decision is final.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Nerd Stop')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                  else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Nerd Stop')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                            </div>
                         </div>
@@ -340,9 +356,9 @@ information on them is well laid out, legible and attractively presented./p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Dumb Charades')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                  else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Dumb Charades')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -368,9 +384,9 @@ solve in the right way.</p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo12">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Solve it')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                    else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Solve it')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -402,9 +418,9 @@ solve in the right way.</p>
                                         <br>
                                       </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Rummy with chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                  else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Rummy with chemicals')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -428,9 +444,9 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('clash of chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                    else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('clash of chemicals')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -452,9 +468,9 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo10">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Debate')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                    else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Debate')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -475,9 +491,9 @@ solve in the right way.</p>
                                        <p><span>Interviewer decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo8">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Mock Interview')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                  else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Mock Interview')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -503,9 +519,9 @@ of the team.</p>
                                          <p>Based on number of teams rounds will be decided.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo9">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Chem-connexions')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                    else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Chem-connexions')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -533,9 +549,9 @@ disputed.</p>
 of the team.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                    <?php if($_SESSION['mode']=="Paid"){
+                                    <?php if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Minutes to disaster')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
-                                    else{
+                                    else if($_SESSION['mode']=="Paid"){
                                       echo "<a href='/success'><button onclick='set('Minutes to disaster')' class='button button2'>Subscribe for Event</button></a>";}
                                       ?>                                </div>
                             </div>
@@ -615,6 +631,17 @@ function set(str) {
         };
         xmlhttp.open("GET", "/set.php?q=" + str, true);
         xmlhttp.send();
+}
+function direct(str)
+{
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        window.location = "http://chemfluence.in/success";
+      }
+  };
+  xmlhttp.open("GET", "/set.php?q=" + str, true);
+  xmlhttp.send();
 }
     </script>
 
