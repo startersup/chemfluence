@@ -215,7 +215,7 @@ minds by giving their incredulous ideas in a definitive direction.</p>
                                   else if($_SESSION['mode']=="Onspot"){
                                     echo "<button onclick='set('Paper Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo "<a href='/success'><button onclick='direct('Paper Presentation')' class='button button2'>Subscribe for Event</button></a>";}
+                                      echo "<a onclick='direct('Jigsaw Explorer')'><button class='button button2'>Subscribe for Event</button></a>";}
                                       ?>
                                 </div>
                             </div>
