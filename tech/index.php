@@ -2,6 +2,18 @@
 session_start();
 $_SESSION['redirect']='/tech';
 $_SESSION['amount']="250";
+$id= $_SESSION['id'];
+$conn=
+$sql="select * from payinfo where userid='$id' and type='general'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0){
+$row=mysqli_fetch_array($res);
+$_SESSION['mode']="Paid";
+}
+else {
+      $_SESSION['mode']="Onspot";
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -172,7 +184,11 @@ $_SESSION['amount']="250";
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo6">Read More...</button>
-                                   <button onclick="set('Paper Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Paper Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Paper Presentation')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>
                                 </div>
                             </div>
                         </div>
@@ -197,7 +213,11 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo7">Read More...</button>
-                                    <button onclick="set('Poster Presentation')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Poster Presentation')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Poster Presentation')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>
                                 </div>
                             </div>
                         </div>
@@ -228,8 +248,11 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         </p>
                                      </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo">Read More...</button>
-                                    <button onclick="set('Jigsaw Explorer')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Jigsaw Explorer')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Jigsaw Explorer')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -255,8 +278,11 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         <p>Judge decision is final.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
- <button onclick="set('Nerd Stop')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>                                </div>
-                            </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Nerd Stop')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Nerd Stop')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                            </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
@@ -282,8 +308,11 @@ reactors & Catalysis, 4. New Frontiers in Chemical Engineering,
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
-                                 <button onclick="set('Dumb Charades')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Dumb Charades')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Dumb Charades')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                          <div class="card eventspace topper" id="borderimg2">
@@ -307,8 +336,11 @@ solve in the right way.</p>
                                         </p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo12">Read More...</button>
-                               <button onclick="set('Solve it')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Solve it')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Solve it')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -338,8 +370,11 @@ solve in the right way.</p>
                                         <br>
                                       </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
-                                     <button onclick="set('Rummy with chemicals')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Rummy with chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Rummy with chemicals')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -361,8 +396,11 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo4">Read More...</button>
-                                   <button onclick="set('Clash of chemicals')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('clash of chemicals')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('clash of chemicals')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
 
@@ -382,8 +420,11 @@ solve in the right way.</p>
                                        <p><span>Judge decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo10">Read More...</button>
-                                     <button onclick="set('Debate')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Debate')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Debate')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                         <div class="card eventspace topper" id="borderimg2">
@@ -402,8 +443,11 @@ solve in the right way.</p>
                                        <p><span>Interviewer decision is final.</span></p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo8">Read More...</button>
-                                    <button onclick="set('Mock Interview')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Mock Interview')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Mock Interview')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                           <div class="card eventspace topper" id="borderimg2">
@@ -428,8 +472,11 @@ of the team.</p>
                                          <p>Based on number of teams rounds will be decided.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo9">Read More...</button>
-                                     <button onclick="set('Chem-Connexions')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Chem-connexions')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Chem-connexions')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                          <div class="card eventspace topper" id="borderimg2">
@@ -456,8 +503,11 @@ disputed.</p>
 of the team.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo11">Read More...</button>
-                                    <button onclick="set('Minutes to Disaster')" class="button button2" data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>
-                                </div>
+                                    <?php if($_SESSION['mode']=="Paid"){
+                                    echo "<button onclick='set('Minutes to disaster')' class='button button2' data-toggle='modal' data-target='#myModal-2'>Subscribe for Event</button>";}
+                                    else{
+                                      echo "<a href='/success'><button onclick='set('Minutes to disaster')' class='button button2'>Subscribe for Event</button></a>";}
+                                      ?>                                </div>
                             </div>
                         </div>
                     </center>
