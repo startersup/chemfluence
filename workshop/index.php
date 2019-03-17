@@ -161,6 +161,12 @@ $_SESSION['redirect']='/workshop';
                                     <p><span>Description :</span> This Process Design workshop will provide information on how to model and simulate Processes
 (From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the
 Process Plant using process simulation software ASPEN HYSYS.</p>
+<br><p>ASPEN HYSYS is a chemical process simulator, which is able to perform many of the core
+calculations of chemical engineering, including those concerned with mass balance, energy balance,
+vapor-liquid equilibrium, heat transfer, mass transfer, chemical kinetics, etc.</p>
+<br>
+<p>This Workshop is useful for Students, Lecturers, Engineers and Researchers in the area of R&amp;D and
+Plant Design/Operation.</p>
                                     <p><span>Participants :</span> 3 member / team.</p>
                                     <div id="demo2" class="collapse">
                                         <h4>Selection & Judgement:</h4>
