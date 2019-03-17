@@ -7,7 +7,7 @@ $_SESSION['redirect']='/workshop';
 
 <head>
     <meta charset="utf-8">
-    <title>About Us | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Workshops | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -146,7 +146,7 @@ $_SESSION['redirect']='/workshop';
     <section class="workmain">
         <div class="container top">
             <div class="row">
-                <div class="col-md-10 card eventspace" id="borderimg1">
+                <div class="col-md-10">
                     <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
