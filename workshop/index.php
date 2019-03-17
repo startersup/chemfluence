@@ -167,7 +167,7 @@ vapor-liquid equilibrium, heat transfer, mass transfer, chemical kinetics, etc.<
 <br>
 <p>This Workshop is useful for Students, Lecturers, Engineers and Researchers in the area of R&amp;D and
 Plant Design/Operation.</p>
-                                    <p><span>Participants :</span> 3 member / team.</p>
+                                    <p><span>  REGISTRATION FEE :</span> Rs:500 /-</p>
                                     <div id="demo2" class="collapse">
                                        <p> It also covers Case Studies to understand the Application better.</p>
                                        <p>At the end of the workshop, you will be able to setup a simulation, run it, get results and more
