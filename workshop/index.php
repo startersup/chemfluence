@@ -160,7 +160,7 @@ $_SESSION['redirect']='/workshop';
                                     <h4> PROCESS DESIGN WORKSHOP</h4>
                                     <p><span>Description :</span> This Process Design workshop will provide information on how to model and simulate Processes
 (From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the
-Process Plant using process simulation software ASPEN HYSYS.</p>
+Process Plant using process simulation software <span>ASPEN HYSYS.</span></p>
 <br>
                                     <p><span>  REGISTRATION FEE :</span> Rs:500 /-</p>
                                     <div id="demo2" class="collapse">
