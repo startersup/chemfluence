@@ -7,7 +7,7 @@ $_SESSION['redirect']='/team';
 
 <head>
     <meta charset="utf-8">
-    <title>Events | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Team | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
