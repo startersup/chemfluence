@@ -163,6 +163,7 @@ $_SESSION['redirect']='/workshop';
 Process Plant using process simulation software <span>ASPEN HYSYS.</span></p>
 <br>
                                     <p><span>  REGISTRATION FEE :</span> Rs:500 /-</p>
+                                     <p><span>  DATE :</span> 26<sup>th</sup> March, 10am</p>
                                     <div id="demo2" class="collapse">
                                         <p>ASPEN HYSYS is a chemical process simulator, which is able to perform many of the core
 calculations of chemical engineering, including those concerned with mass balance, energy balance,
@@ -175,6 +176,41 @@ Plant Design/Operation.</p>
 important, analysis of the process for further optimisation.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Dumb Charades\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Dumb Charades\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
+                            </div>
+                        </div>
+                          <div class="card eventspace" id="borderimg2">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <center>
+                                        <img class="imge"  src="../assets/images/dumb%20chard.png">
+                                    </center>
+                                </div>
+                                <div class="col-md-9 span">
+                                    <h4> RESPONSE SURFACE METHODOLOGY (RSM)</h4>
+                                    <p><span>Description :</span> In RESPONSE SURFACE METHODOLOGY (RSM) workshop , explores the relationships between
+several explanatory variables and one or more response variables.</span></p>
+<br>
+                                    <p><span>  REGISTRATION FEE :</span> Rs:300 /-</p>
+                                     <p><span>  DATE :</span> 27<sup>th</sup> March, 10am</p>
+                                    <div id="demo3" class="collapse">
+                                        <p>Statistical approaches such as RSM can be employed to maximize the production of a special
+substance by optimization of operational factors. In contrast to conventional methods, the
+interaction among process variables can be determined by statistical techniques.</p>
+<br>
+<p>This Workshop is useful for Students, Lecturers, Engineers.</p>
+                                       <p> </p>
+                                      
+                                    </div>
+                                    <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
                                     <?php
                                     if($log==1)
                                     {
