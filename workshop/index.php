@@ -157,9 +157,10 @@ $_SESSION['redirect']='/workshop';
                                     </center>
                                 </div>
                                 <div class="col-md-9 span">
-                                    <h4> DUMB CHARADES</h4>
-                                    <p><span>Description :</span> Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. They can use chalk and board in process. But shouldn’t depict
-                                        it directly.</p>
+                                    <h4> PROCESS DESIGN WORKSHOP</h4>
+                                    <p><span>Description :</span> This Process Design workshop will provide information on how to model and simulate Processes
+(From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the
+Process Plant using process simulation software ASPEN HYSYS.</p>
                                     <p><span>Participants :</span> 3 member / team.</p>
                                     <div id="demo2" class="collapse">
                                         <h4>Selection & Judgement:</h4>
