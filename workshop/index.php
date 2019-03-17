@@ -153,7 +153,7 @@ $_SESSION['redirect']='/workshop';
                             <div class="row">
                             
                                 <div class="col-md-12 span">
-                                    <center><img src="../assets/images/petrokens.png" style="max-width:200px;"></center>
+                                    <center><img src="../assets/images/petrokens.png" style="max-width:400px;width:100%;"></center>
                                     <h4> PROCESS DESIGN WORKSHOP</h4>
                                     <p><span>Description :</span> This Process Design workshop will provide information on how to model and simulate Processes
 (From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the
