@@ -147,7 +147,7 @@ $_SESSION['redirect']='/workshop';
         <div class="container top">
             <div class="row">
                 <div class="col-md-9">
-                      <h3>Spot Events</h3>
+                      <h3>Workshops</h3>
                         <br>
                     <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
