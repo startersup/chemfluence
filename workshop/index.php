@@ -187,7 +187,7 @@ important, analysis of the process for further optimisation.</p>
                                         ?>                              </div>
                             </div>
                         </div>
-                          <div class="card eventspace" id="borderimg2">
+                          <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
                                     <center>
