@@ -337,8 +337,8 @@ information on them is well laid out, legible and attractively presented./p>
                                       echo '<button onclick="set(\'Nerd Stop\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
                                       echo '<a onclick="direct(\'Nerd Stop\')"><button class="button button2">Subscribe for Event</button></a>';}
-                                        ?>                          </div>
-                        </div>
+                                        ?>                     
+                        </div></div></div>
                         <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
