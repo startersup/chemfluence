@@ -145,18 +145,39 @@ $_SESSION['redirect']='/workshop';
     </nav>
     <section class="workmain">
         <div class="container top">
-            <div class="row">
-                <div class="col-md-10 card eventspace" id="borderimg1">
-                    <center>
-                       <center>
-                        <h3>Workshops</h3>
-                        <p>Will be updated soon !</p>
-                        <br>
-
-                    </center>
-                    </center>
-                </div>
-            </div>
+            <div class="card eventspace topper" id="borderimg2">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <center>
+                                        <img class="imge" src="../assets/images/quizzing.png">
+                                    </center>
+                                </div>
+                                <div class="col-md-9 span">
+                                    <h4>  NERD STOP – A TECHNICAL QUIZ</h4>
+                                    <p><span>Description :</span>Normal quiz based on chemical engineering with moderate difficulty.</p>
+                                    <p><span>Participants :</span> 2 members / team.</p>
+                                    <div id="demo1" class="collapse">
+                                        <h4>Selection & Judgement:</h4>
+                                        <p>Each team write the answer in respective paper given.</p>
+                                        <p>Marks are evaluated for each team.</p>
+                                        <p>Top 6 (if teams
+                                            < 15) or Top 8 (if teams>15) are selected based on ascending order of marks</p>
+                                        <p>Happens in 2 rounds; Round one & Final.</p>
+                                        <p>For Tie breakers a separate question in given for selection.</p>
+                                        <p>Copying or speaking with other teams will lead to disqualification.</p>
+                                        <p>Judge decision is final.</p>
+                                    </div>
+                                    <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
+                                    <?php
+                                    if($log==1)
+                                    {
+                                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                                    else if($_SESSION['mode']=="Onspot"){
+                                      echo '<button onclick="set(\'Nerd Stop\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                    else if($_SESSION['mode']=="Paid"){
+                                      echo '<a onclick="direct(\'Nerd Stop\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                     
+                        </div></div></div>
         </div>
 
 
