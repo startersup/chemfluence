@@ -7,7 +7,7 @@ $_SESSION['redirect']='/workshop';
 
 <head>
     <meta charset="utf-8">
-    <title>Workshops | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>About Us | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -145,39 +145,45 @@ $_SESSION['redirect']='/workshop';
     </nav>
     <section class="workmain">
         <div class="container top">
-            <div class="card eventspace topper" id="borderimg2">
+            <div class="row">
+                <div class="col-md-10 card eventspace" id="borderimg1">
+                    <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
                                     <center>
-                                        <img class="imge" src="../assets/images/quizzing.png">
+                                        <img class="imge"  src="../assets/images/dumb%20chard.png">
                                     </center>
                                 </div>
                                 <div class="col-md-9 span">
-                                    <h4>  NERD STOP – A TECHNICAL QUIZ</h4>
-                                    <p><span>Description :</span>Normal quiz based on chemical engineering with moderate difficulty.</p>
-                                    <p><span>Participants :</span> 2 members / team.</p>
-                                    <div id="demo1" class="collapse">
+                                    <h4> DUMB CHARADES</h4>
+                                    <p><span>Description :</span> Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. They can use chalk and board in process. But shouldn’t depict
+                                        it directly.</p>
+                                    <p><span>Participants :</span> 3 member / team.</p>
+                                    <div id="demo2" class="collapse">
                                         <h4>Selection & Judgement:</h4>
-                                        <p>Each team write the answer in respective paper given.</p>
-                                        <p>Marks are evaluated for each team.</p>
-                                        <p>Top 6 (if teams
-                                            < 15) or Top 8 (if teams>15) are selected based on ascending order of marks</p>
-                                        <p>Happens in 2 rounds; Round one & Final.</p>
-                                        <p>For Tie breakers a separate question in given for selection.</p>
-                                        <p>Copying or speaking with other teams will lead to disqualification.</p>
-                                        <p>Judge decision is final.</p>
+                                        <p>Teams that identify the chemicals are arranged based on time taken to find in ascending order.</p>
+                                        <p>Two teams take part at a time.</p>
+                                        <p> Top 6 (if teams
+                                            < 15) or Top 8 (if teams>15) are selected.</p>
+                                        <p>Same is done for Finals, Top 3 selected.</p>
+                                        <p>Speaking or saying the chemical name leads to disqualification.</p>
+                                        <p><span>Judge decision is final.</span>
+                                        </p>
                                     </div>
-                                    <button class="button" data-toggle="collapse" data-target="#demo1">Read More...</button>
+                                    <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
                                     <?php
                                     if($log==1)
                                     {
                                       echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
                                     else if($_SESSION['mode']=="Onspot"){
-                                      echo '<button onclick="set(\'Nerd Stop\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
+                                      echo '<button onclick="set(\'Dumb Charades\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                     else if($_SESSION['mode']=="Paid"){
-                                      echo '<a onclick="direct(\'Nerd Stop\')"><button class="button button2">Subscribe for Event</button></a>';}
-                                        ?>                     
-                        </div></div></div>
+                                      echo '<a onclick="direct(\'Dumb Charades\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                        ?>                              </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
         </div>
 
 
