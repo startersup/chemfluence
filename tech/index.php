@@ -338,7 +338,7 @@ information on them is well laid out, legible and attractively presented./p>
                                     else if($_SESSION['mode']=="Paid"){
                                       echo '<a onclick="direct(\'Nerd Stop\')"><button class="button button2">Subscribe for Event</button></a>';}
                                         ?>                     
-                        </div></div></div>
+                        </div></div>
                         <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
                                 <div class="col-md-3">
