@@ -151,12 +151,9 @@ $_SESSION['redirect']='/workshop';
                         <br>
                     <div class="card eventspace" id="borderimg2">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <center>
-                                        <img class="imge"  src="../assets/images/dumb%20chard.png">
-                                    </center>
-                                </div>
-                                <div class="col-md-9 span">
+                            
+                                <div class="col-md-12 span">
+                                    <center><img src="../assets/images/petrokens.png" style="max-width:200px;"></center>
                                     <h4> PROCESS DESIGN WORKSHOP</h4>
                                     <p><span>Description :</span> This Process Design workshop will provide information on how to model and simulate Processes
 (From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the
@@ -189,12 +186,8 @@ important, analysis of the process for further optimisation.</p>
                         </div>
                           <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
-                                <div class="col-md-3">
-                                    <center>
-                                        <img class="imge"  src="../assets/images/dumb%20chard.png">
-                                    </center>
-                                </div>
-                                <div class="col-md-9 span">
+                               
+                                <div class="col-md-12 span">
                                     <h4> RESPONSE SURFACE METHODOLOGY (RSM)</h4>
                                     <p><span>Description :</span> In RESPONSE SURFACE METHODOLOGY (RSM) workshop , explores the relationships between
 several explanatory variables and one or more response variables.</span></p>
