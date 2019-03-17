@@ -169,15 +169,9 @@ vapor-liquid equilibrium, heat transfer, mass transfer, chemical kinetics, etc.<
 Plant Design/Operation.</p>
                                     <p><span>Participants :</span> 3 member / team.</p>
                                     <div id="demo2" class="collapse">
-                                        <h4>Selection & Judgement:</h4>
-                                        <p>Teams that identify the chemicals are arranged based on time taken to find in ascending order.</p>
-                                        <p>Two teams take part at a time.</p>
-                                        <p> Top 6 (if teams
-                                            < 15) or Top 8 (if teams>15) are selected.</p>
-                                        <p>Same is done for Finals, Top 3 selected.</p>
-                                        <p>Speaking or saying the chemical name leads to disqualification.</p>
-                                        <p><span>Judge decision is final.</span>
-                                        </p>
+                                       <p> It also covers Case Studies to understand the Application better.</p>
+                                       <p>At the end of the workshop, you will be able to setup a simulation, run it, get results and more
+important, analysis of the process for further optimisation.</p>
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo2">Read More...</button>
                                     <?php
