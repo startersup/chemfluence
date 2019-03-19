@@ -151,13 +151,12 @@ $_SESSION['redirect']='/sponsors';
                         <h3>Our Proud Sponsors</h3>
                           <br>
                           <div class="row">
-                            <div class="col-md-4 col-xs-6">
-                                <div class="cardin eventspace" id="borderimg2" style="background-color:#000000;">
-                                   <img class="imager" src="../assets/images/slogo1.png"><br>
+                             <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2" ">
+                                   <img class="imager" src="../assets/images/slogo4.png"><br>
                                 </div>
-                                
-                    
                 </div>
+                           
                        <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/slogo2.jpg"><br>
@@ -177,13 +176,13 @@ $_SESSION['redirect']='/sponsors';
 
 
 <div class="row">
-                            <div class="col-md-4 col-xs-6">
-                                <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/slogo4.png"><br>
+                         <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2" style="background-color:#000000;">
+                                   <img class="imager" src="../assets/images/slogo1.png"><br>
                                 </div>
                                 
                     
-                </div>
+                </div>   
                        <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/slogo5.jpg"><br>
