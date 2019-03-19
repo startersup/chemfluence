@@ -153,38 +153,22 @@ $_SESSION['redirect']='/sponsors';
                           <div class="row">
                             <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                   <img class="imager" src="../assets/images/slogo1.png"><br>
                                    
-                                </div><br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/aravind.jpg">
-                                    
-
                                 </div>
                                 
                     
                 </div>
                        <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                   <img class="imager" src="../assets/images/slogo2.jpeg"><br>
                                  
-                                </div><br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/aravind.jpg">
-                                    
-
                                 </div>
-                                
-                    
                 </div>
                               <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                   <img class="imager" src="../assets/images/slogo3.png"><br>
                                     
-                                </div><br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/aravind.jpg">
-                                   
                                 </div>
                                
                     
