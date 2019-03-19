@@ -154,64 +154,37 @@ $_SESSION['redirect']='/sponsors';
                             <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/bril.jpeg"><br>
-                                    <center><h5><span>Brillingston Raj</span></h5>
-                                             <h5>Joint Secretary</h5>
-                                           </center>
+                                   
                                 </div><br>
                                  <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/aravind.jpg">
-                                     <center><h5><span>Arravind S</span></h5>
-                                             <h5>Treasurer</h5>
-                                           </center>
+                                    
 
                                 </div>
-                                <br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/sowmya.jpg">
-                                     <center><h5><span>Sowmya V</span></h5>
-                                             <h5>Senior Executive Member</h5>
-                                           </center>
-                                </div>
-                                 <br>
+                                
                     
                 </div>
                        <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/bril.jpeg"><br>
-                                    <center><h5><span>Brillingston Raj</span></h5>
-                                             <h5>Joint Secretary</h5>
-                                           </center>
+                                 
                                 </div><br>
                                  <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/aravind.jpg">
-                                     <center><h5><span>Arravind S</span></h5>
-                                             <h5>Treasurer</h5>
-                                           </center>
+                                    
 
                                 </div>
-                                <br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/sowmya.jpg">
-                                     <center><h5><span>Sowmya V</span></h5>
-                                             <h5>Senior Executive Member</h5>
-                                           </center>
-                                </div>
-                                 <br>
+                                
                     
                 </div>
                               <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/bril.jpeg"><br>
-                                    <center><h5><span>Brillingston Raj</span></h5>
-                                             <h5>Joint Secretary</h5>
-                                           </center>
+                                    
                                 </div><br>
                                  <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/aravind.jpg">
-                                     <center><h5><span>Arravind S</span></h5>
-                                             <h5>Treasurer</h5>
-                                           </center>
-
+                                   
                                 </div>
                                 <br>
                                  <div class="cardin eventspace" id="borderimg2">
