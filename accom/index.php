@@ -146,11 +146,29 @@ $_SESSION['redirect']='/accom';
     <section class="accomain">
         <div class="container top">
             <div class="row">
+              <center>
+                        <h3>ACCOMODATION</h3>
+                          <br>
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
-                        <h3>Accomodation</h3>
-                        <p>Will be updated soon !</p>
+                      
+                        <p>Accommodation will be provided in AC Tech hostels.</p>
+                        <p>All the students staying in AC Tech hostels should follow the hostel rules.</p>
+                        <p>Hostel in time for girls – 8.30 pm</p>
+                        <p>Hostel in time for boys – 10.00 pm</p>
+
                         <br>
+                        <br><p>ACCOMODATION FEE – 250/DAY</p>
+<br><br>
+
+                        <p><span>CONTACT</span></p>
+                        <p>Boys hostel</p>
+                        <p>Bala Krishnan – 98942 05934</p>
+                        <p>arul bala – 9566521175</p>
+                        <p>chandru – 97896 44584</p>
+
+                        <p><span>Girls hostel</span></p>
+                        <p>Will be updated soon</p>
 
                     </center>
                 </div>
