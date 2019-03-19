@@ -147,15 +147,85 @@ $_SESSION['redirect']='/sponsors';
         <div class="container top">
             <div class="row">
                 <div class="col-md-9 card eventspace" id="borderimg1">
-                    <center>
-                        <h3>Sponsors</h3>
-                        <p>Will be updated soon !</p>
-                        <br>
+                      <center>
+                        <h3>Our Proud Sponsors</h3>
+                          <br>
+                          <div class="row">
+                            <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                    <center><h5><span>Brillingston Raj</span></h5>
+                                             <h5>Joint Secretary</h5>
+                                           </center>
+                                </div><br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/aravind.jpg">
+                                     <center><h5><span>Arravind S</span></h5>
+                                             <h5>Treasurer</h5>
+                                           </center>
 
-                    </center>
+                                </div>
+                                <br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/sowmya.jpg">
+                                     <center><h5><span>Sowmya V</span></h5>
+                                             <h5>Senior Executive Member</h5>
+                                           </center>
+                                </div>
+                                 <br>
+                    
                 </div>
-            </div>
-        </div>
+                       <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                    <center><h5><span>Brillingston Raj</span></h5>
+                                             <h5>Joint Secretary</h5>
+                                           </center>
+                                </div><br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/aravind.jpg">
+                                     <center><h5><span>Arravind S</span></h5>
+                                             <h5>Treasurer</h5>
+                                           </center>
+
+                                </div>
+                                <br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/sowmya.jpg">
+                                     <center><h5><span>Sowmya V</span></h5>
+                                             <h5>Senior Executive Member</h5>
+                                           </center>
+                                </div>
+                                 <br>
+                    
+                </div>
+                              <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/bril.jpeg"><br>
+                                    <center><h5><span>Brillingston Raj</span></h5>
+                                             <h5>Joint Secretary</h5>
+                                           </center>
+                                </div><br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/aravind.jpg">
+                                     <center><h5><span>Arravind S</span></h5>
+                                             <h5>Treasurer</h5>
+                                           </center>
+
+                                </div>
+                                <br>
+                                 <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/sowmya.jpg">
+                                     <center><h5><span>Sowmya V</span></h5>
+                                             <h5>Senior Executive Member</h5>
+                                           </center>
+                                </div>
+                                 <br>
+                    
+                </div>
+                              
+                          </div></center></div></div></div>
+
 
 
         <footer class="footer top right">
