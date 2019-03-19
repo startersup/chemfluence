@@ -169,7 +169,8 @@ $_SESSION['redirect']='/accom';
                         <p>chandru – 97896 44584</p>
 
                         <p><span>Girls hostel</span></p>
-                        <p>Will be updated soon</p>
+                        <p>+91 9487049639 - bharani</p>
+                        <p>+91 9597291059 - ranjana</p>
 
                     </center>
                      <button class="button" data-toggle="modal" data-target="#myModal">Pay Now</button>
