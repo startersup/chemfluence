@@ -159,6 +159,7 @@ $_SESSION['redirect']='/accom';
 
                         <br>
                         <br><p>ACCOMODATION FEE – 250/DAY</p>
+                         <button class="button" data-toggle="modal" data-target="#myModal">Pay Now</button>
 <br><br>
 
                         <p><span>CONTACT</span></p>
