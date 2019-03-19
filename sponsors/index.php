@@ -154,7 +154,6 @@ $_SESSION['redirect']='/sponsors';
                             <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2" style="background-color:#000000;">
                                    <img class="imager" src="../assets/images/slogo1.png"><br>
-                                   
                                 </div>
                                 
                     
@@ -174,7 +173,31 @@ $_SESSION['redirect']='/sponsors';
                     
                 </div>
                               
-                          </div></center></div></div></div>
+                          </div>
+
+
+<div class="row">
+                            <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2" style="background-color:#000000;">
+                                   <img class="imager" src="../assets/images/slogo4.png"><br>
+                                </div>
+                                
+                    
+                </div>
+                       <div class="col-md-4 col-xs-6">
+                                <div class="cardin eventspace" id="borderimg2">
+                                   <img class="imager" src="../assets/images/slogo5.jpg"><br>
+                                 
+                                </div>
+                </div>
+                             
+                               
+                    
+                </div>
+                              
+                          </div>
+
+                      </center></div></div></div>
 
 
 
