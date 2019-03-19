@@ -146,7 +146,7 @@ $_SESSION['redirect']='/sponsors';
     <section class="sponmain">
         <div class="container top">
             <div class="row">
-                <div class="col-md-9 card eventspace">
+                <div class="col-md-9">
                       <center>
                         <h3>Our Proud Sponsors</h3>
                           <br>
