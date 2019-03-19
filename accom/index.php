@@ -148,7 +148,7 @@ $_SESSION['redirect']='/accom';
             <div class="row">
               <center>
                         <h3>ACCOMODATION</h3>
-                          <br>
+                          <br></center>
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
                       
