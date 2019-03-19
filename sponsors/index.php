@@ -186,14 +186,7 @@ $_SESSION['redirect']='/sponsors';
                                    <img class="imager" src="../assets/images/aravind.jpg">
                                    
                                 </div>
-                                <br>
-                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/sowmya.jpg">
-                                     <center><h5><span>Sowmya V</span></h5>
-                                             <h5>Senior Executive Member</h5>
-                                           </center>
-                                </div>
-                                 <br>
+                               
                     
                 </div>
                               
