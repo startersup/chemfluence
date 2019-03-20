@@ -1,6 +1,15 @@
 <?php
 session_start();
 $_SESSION['redirect']='/workshop';
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+if(!isset($_SESSION['id']))
+{
+  $log=1;
+}
+else {
+  $log=0;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -151,7 +160,7 @@ $_SESSION['redirect']='/workshop';
                         <br>
                     <div class="card eventspace" id="borderimg2">
                             <div class="row">
-                            
+
                                 <div class="col-md-12 span">
                                     <center><img src="../assets/images/petrokens.png" style="max-width:300px;width:100%;"></center><br><br>
                                     <h4> PROCESS DESIGN WORKSHOP</h4>
@@ -177,16 +186,14 @@ important, analysis of the process for further optimisation.</p>
                                     if($log==1)
                                     {
                                       echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
-                                    else if($_SESSION['mode']=="Onspot"){
-                                      echo '<button onclick="set(\'Dumb Charades\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
-                                    else if($_SESSION['mode']=="Paid"){
-                                      echo '<a onclick="direct(\'Dumb Charades\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                    else {
+                                      echo '<button onclick="set(\'Petroken\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                         ?>                              </div>
                             </div>
                         </div>
                           <div class="card eventspace topper" id="borderimg2">
                             <div class="row">
-                               
+
                                 <div class="col-md-12 span">
                                     <h4> RESPONSE SURFACE METHODOLOGY (RSM)</h4>
                                     <p><span>Description :</span> In RESPONSE SURFACE METHODOLOGY (RSM) workshop , explores the relationships between
@@ -201,24 +208,49 @@ interaction among process variables can be determined by statistical techniques.
 <br>
 <p>This Workshop is useful for Students, Lecturers, Engineers.</p>
                                        <p> </p>
-                                      
+
                                     </div>
                                     <button class="button" data-toggle="collapse" data-target="#demo3">Read More...</button>
                                     <?php
                                     if($log==1)
                                     {
                                       echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
-                                    else if($_SESSION['mode']=="Onspot"){
-                                      echo '<button onclick="set(\'Dumb Charades\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
-                                    else if($_SESSION['mode']=="Paid"){
-                                      echo '<a onclick="direct(\'Dumb Charades\')"><button class="button button2">Subscribe for Event</button></a>';}
+                                    else {
+                                      echo '<button onclick="set(\'Response\')" class="button button2" data-toggle="modal" data-target="#myModal-2">Subscribe for Event</button>';}
                                         ?>                              </div>
                             </div>
                         </div>
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="myModal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
+                   <div class="modal-dialog" role="document">
+                   <div class="modal-content">
+                   <div class="modal-header">
+                   <h4 class="modal-title" id="myModalLabel-2">Subscribe the Event </h4>
+                   </div>
+                   <div class="modal-body">
+                   <center><p>Choose your suitable options according to your convenience</p>
+                         <div class="row">
+                   <div class="col-md-6"><center><p>Paying Through Online?</p><br>
+        <a href="/PaytmKit/TxnTest.php"><button class="button button2">Click here</button></a>
 
+                   </center></div>
+                         <div class="col-md-6"><center><p>Paying Onspot?</p><br>
+        <a href="/success"><button class="button button2">Click here</button></a>
+
+                   </center></div>
+                         </center>
+                   </div>
+
+                   <div class="modal-footer">
+                   <button type="button" class="btn btn-dialog" data-dismiss="modal">Cancel</button>
+                   </div>
+                   </div><!-- modal-content -->
+                   </div><!-- modal-dialog -->
+                   </div>
+
+       </div>
 
         <footer class="footer top right">
            <div class="icons">
@@ -238,6 +270,17 @@ interaction among process variables can be determined by statistical techniques.
     </section>
     <script></script>
     <script>
+    function set(str) {
+
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                  console.log("Success"+str);
+                }
+            };
+            xmlhttp.open("GET", "/setw.php?q=" + str, true);
+            xmlhttp.send();
+    }
         function openNav() {
             document.getElementById("myNav").style.height = "100%";
         }

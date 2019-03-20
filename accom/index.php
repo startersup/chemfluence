@@ -1,6 +1,16 @@
 <?php
 session_start();
 $_SESSION['redirect']='/accom';
+$id= $_SESSION['id'];
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+$_SESSION['amount']="250";
+if(!isset($_SESSION['id']))
+{
+  $log=1;
+}
+else {
+  $log=0;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -151,7 +161,7 @@ $_SESSION['redirect']='/accom';
                           <br></center>
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
-                      
+
                         <p>Accommodation will be provided in AC Tech hostels.</p>
                         <p>All the students staying in AC Tech hostels should follow the hostel rules.</p>
                         <p>Hostel in time for girls – 8.30 pm</p>
@@ -173,7 +183,13 @@ $_SESSION['redirect']='/accom';
                         <p>+91 9597291059 - ranjana</p>
 
                     </center>
-                     <button class="button" data-toggle="modal" data-target="#myModal">Pay Now</button>
+                    <?php
+                    if($log==1)
+                    {
+                      echo "<a href='/login'><button class='button button2'>Subscribe for Event</button></a>";}
+                    else {
+                      echo '<button onclick="set(\'Accommodation\')" class="button" data-toggle="modal" data-target="#myModal">Register Now</button>';}
+                        ?>
                 </div>
             </div>
         </div>
@@ -232,6 +248,16 @@ $_SESSION['redirect']='/accom';
 
         function closeNav() {
             document.getElementById("myNav").style.height = "0%";
+        }
+        function set(str) {
+                var xmlhttp = new XMLHttpRequest();
+                xmlhttp.onreadystatechange = function() {
+                    if (this.readyState == 4 && this.status == 200) {
+                      console.log("Success"+str);
+                    }
+                };
+                xmlhttp.open("GET", "/set.php?q=" + str, true);
+                xmlhttp.send();
         }
     </script>
 
