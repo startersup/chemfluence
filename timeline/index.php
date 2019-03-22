@@ -247,11 +247,12 @@ $_SESSION['redirect']='/timeline';
         	 <div class="timeline-badge warning"><img  class="imge1" src="../assets/images/tutorial.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">PAPER PRESENTATION</h4>
-               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
+              <h4 class="timeline-title">WORKSHOP – 1</h4>
+               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:30 AM – 1:00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>Teams should submit the abstract before the event</p>
+              <p>This Process Design workshop will provide information on how to model and simulate Processes (From Oil & Gas and Petrochemical Plant) and Effective way of using unit operation to optimize the Process Plant using process simulation software ASPEN HYSYS.</p>
+              <p><span>201 ACT</span></p>
             </div>
           </div>
         </li><br>
