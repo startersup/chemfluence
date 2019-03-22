@@ -194,13 +194,13 @@ $_SESSION['redirect']='/sponsors';
                 </div>   
                  <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/slogo2.png"><br>
+                                   <img class="imager" src="../assets/images/slogo3.png"><br>
                                  
                                 </div>
                 </div>        
                        <div class="col-md-4 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
-                                   <img class="imager" src="../assets/images/slogo3.jpg"><br>
+                                   <img class="imager" src="../assets/images/slogo2.jpg"><br>
                                  
                                 </div>
                 </div>
