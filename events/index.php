@@ -67,7 +67,7 @@ $_SESSION['redirect']='/events';
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span> <img src="../assets/images/motel.png"> <a href="../accom/">Accomodation</a></span>
+                                    <center><span> <img src="../assets/images/motel.png"> <a href="../accom/">Accommodation</a></span>
                                     </center>
                                 </div>
                             </div>
