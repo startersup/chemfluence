@@ -243,7 +243,7 @@ $_SESSION['redirect']='/timeline';
 					<center><h4 style="color:green;font-family: 'lato', sans-serif;">DAY 2: MARCH 26th 2019 (TUESDAY)</h4></center>
 				<br>
 			</div>
-        <li class="timeline-inverted">
+        <li class="">
         	 <div class="timeline-badge warning"><img  class="imge1" src="../assets/images/tutorial.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -256,7 +256,7 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li><br>
-        <li>
+        <li class="timeline-inverted">
           <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
