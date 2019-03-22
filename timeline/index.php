@@ -191,11 +191,11 @@ $_SESSION['redirect']='/timeline';
           <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">WORKSHOP-1</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM - 12:00 NOON</small></p>
+              <h4 class="timeline-title">Lunch</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12:30 – 1:30 NOON</small></p>
             </div>
             <div class="timeline-body">
-              <p></p>
+              <p>The Partcipants can have their lunch and get back to their events.</p>
             </div>
           </div>
         </li>
