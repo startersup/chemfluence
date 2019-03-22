@@ -335,7 +335,7 @@ $_SESSION['redirect']='/timeline';
             <div class="timeline-heading">
               <h4 class="timeline-title">SOLVE IT</h4>
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:30 AM – 12:30PM</small></p>
-              
+
             </div>
             <div class="timeline-body">
              <p>In this event you will be given problems related to chemical engineering. Use your skill to solve in the right way.</p>
@@ -355,7 +355,7 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li><br>
-       <li class="timeline-inverted">
+       <li >
           <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
