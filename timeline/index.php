@@ -348,7 +348,8 @@ $_SESSION['redirect']='/timeline';
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">POSTER PRESENTATION</h4>
-               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
+               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 PM – 4 PM </small></p>
+               <p><span>FLUID MECHANICS LAB</span></p>
             </div>
             <div class="timeline-body">
               <p>Participants are requested to send their abstract before March 20, 6:00 pm.</p>
@@ -372,11 +373,11 @@ $_SESSION['redirect']='/timeline';
           <div class="timeline-badge success"><img class="imge1" src="../assets/images/rummy.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">RUMMY WITH CHEMICALS</h4>
+              <h4 class="timeline-title">MINUTES TO DISASTER & DEBATE</h4>
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 10:00 AM - 12:00 NOON</small></p>
             </div>
             <div class="timeline-body">
-              <p>A normal rummy game with joker, instead of decks of A,K,Q,J,…. ,Game is with chemicals.</p>
+              <p>The Partcipants are requested to schedule their timings as both the events are ongoing parallel.</p>
             </div>
           </div>
         </li><br>
