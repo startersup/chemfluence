@@ -381,57 +381,7 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li><br>
-        <li>
-          <div class="timeline-badge warning"><img class="imge1" src="../assets/images/conn.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">CHEM CONNEXIONS</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM – 12:30 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p> It is inspired from popular reality show. Here we will be using chemical engineering terms instead of normal words.</p>
-            </div>
-          </div>
-        </li>
-       <br>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><img class="imge1" src="../assets/images/interview.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">MOCK INTERVIEW</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1:00 PM - 3:00 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Replica of original HR, Technical interview for chemical engineers.</p>
-            </div>
-          </div>
-        </li>
-        <br>
-         <li class="timeline-inverted">
-          <div class="timeline-badge warning"><img class="imge1" src="../assets/images/debate.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">DEBATE</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1:00 PM - 3:00 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Normal Debate about the given topic.</p>
-            </div>
-          </div>
-        </li><br>
-         <li>
-          <div class="timeline-badge success"><img class="imge1" src="../assets/images/min.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">MINUTES TO DISASTER</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2:00 PM - 3:30 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>In this event you will be given a case study of hypothetical industrial disasters around the world. </p>
-            </div>
-          </div>
-        </li>
-       <br>
+       
       
     </ul>
 </div>
