@@ -17,7 +17,7 @@ else {
 
 <head>
     <meta charset="utf-8">
-    <title>Accomodation | Chemfluence 2K19 | National Level Technical Symposium</title>
+    <title>Accommodation | Chemfluence 2K19 | National Level Technical Symposium</title>
     <link rel="icon" href="../assets/images/logo.png" type="image" sizes="16x16">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,7 +77,7 @@ else {
 
                             <div class="col-md-3 col-xs-6">
                                 <div class="card shape" id="borderimg1">
-                                    <center><span> <img src="../assets/images/motel.png"> <a href="../accom/">Accomodation</a></span>
+                                    <center><span> <img src="../assets/images/motel.png"> <a href="../accom/">Accommodation</a></span>
                                     </center>
                                 </div>
                             </div>
@@ -157,7 +157,7 @@ else {
         <div class="container top">
             <div class="row">
               <center>
-                        <h3>ACCOMODATION</h3>
+                        <h3>ACCOMMODATION</h3>
                           <br></center>
                 <div class="col-md-9 card eventspace" id="borderimg1">
                     <center>
