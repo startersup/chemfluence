@@ -198,7 +198,7 @@ $_SESSION['redirect']='/sponsors';
                                  
                                 </div>
                 </div>
-                       <div class="col-md-4 col-xs-6">
+                       <div class="col-md-8 col-xs-6">
                                 <div class="cardin eventspace" id="borderimg2">
                                    <img class="imager" src="../assets/images/sosa.jpg"><br>
                                  
