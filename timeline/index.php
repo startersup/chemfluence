@@ -268,15 +268,30 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li>
-       <br>        <li class="timeline-inverted">
+       <br>  
+  <li>
+          <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Lunch</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 PM – 2 PM</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>The Partcipants can have their lunch and get back to their events.</p>
+            </div>
+          </div>
+        </li>
+
+             <li class="timeline-inverted">
           <div class="timeline-badge warning"><img class="imge1" src="../assets/images/jigsaw.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">JIGSAW EXPLORER</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 10:00 AM - 12:00 NOON</small></p>
+              <h4 class="timeline-title">MOCK INTERVIEW</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2 PM – 4 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>25 pieces puzzle of plant layout or an equipment.</p>
+              <p>Replica of original HR and technical interview for chemical engineers..</p>
+              <p><span>316 (ACT)</span></p>
             </div>
           </div>
         </li><br>
@@ -284,36 +299,26 @@ $_SESSION['redirect']='/timeline';
           <div class="timeline-badge info"><img class="imge1" src="../assets/images/quizzing.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">QUIZ</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM – 12:30 PM</small></p>
+              <h4 class="timeline-title">CHEM CONNECXIONS & JIG SAW EXPLORER </h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4 PM – 5.00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>Normal quiz based on chemical engineering with moderate difficulty.</p>
+              <p>The Partcipants are requested to schedule their timings as both the events are ongoing parallel.</p>
+              <p><span>202 (TEXTILE)</span></p>
             </div>
           </div>
         </li>
        <br>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><img class="imge1" src="../assets/images/debate.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">DEBATE</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1:00 PM - 3:00 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Normal Debate about the given topic.</p>
-            </div>
-          </div>
-        </li><br>
-         <li >
+         <li class="timeline-inverted">
           <div class="timeline-badge info"><img class="imge1"  src="../assets/images/dumb%20chard.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">DUMB CHARADES</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2:00 PM - 3:30 PM</small></p>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5:00 PM – 6:00 PM</small></p>
             </div>
             <div class="timeline-body">
               <p>Team member select their chemical from lot and has to make their teammates identify that chemical without saying a word. Total dumb. </p>
+              <p><span>204 (TEXTILE)</span></p>
             </div>
           </div>
         </li>
@@ -398,6 +403,18 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
         <br>
+         <li class="timeline-inverted">
+          <div class="timeline-badge warning"><img class="imge1" src="../assets/images/debate.png"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">DEBATE</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1:00 PM - 3:00 PM</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Normal Debate about the given topic.</p>
+            </div>
+          </div>
+        </li><br>
          <li>
           <div class="timeline-badge success"><img class="imge1" src="../assets/images/min.png"></div>
           <div class="timeline-panel">
