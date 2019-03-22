@@ -344,7 +344,7 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
         <li class="timeline-inverted">
-        	 <div class="timeline-badge info"><img class="imge1" src="../assets/images/poster%20presen.png"></div>
+           <div class="timeline-badge info"><img class="imge1" src="../assets/images/poster%20presen.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">POSTER PRESENTATION</h4>
