@@ -256,20 +256,8 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li><br>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">WORKSHOP-2 </h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>The workshop named Aspen HYSYS will be started at the Mentioned time. Participants are requested to report venue before.</p>
-            </div>
-          </div>
-        </li>
-       <br>  
-  <li>
+       
+  <li class="timeline-inverted">
           <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -282,7 +270,7 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
 
-             <li class="timeline-inverted">
+             <li >
           <div class="timeline-badge warning"><img class="imge1" src="../assets/images/jigsaw.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -295,7 +283,7 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li><br>
-        <li>
+        <li class="timeline-inverted">
           <div class="timeline-badge info"><img class="imge1" src="../assets/images/quizzing.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -309,7 +297,7 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
        <br>
-         <li class="timeline-inverted">
+         <li >
           <div class="timeline-badge info"><img class="imge1"  src="../assets/images/dumb%20chard.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -322,24 +310,24 @@ $_SESSION['redirect']='/timeline';
             </div>
           </div>
         </li>
-
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><img class="imge1" src="../assets/images/clash%20of%20chemic.png"></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">CLASH OF CHEMICALS</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3:00 PM – 4:30 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Similar to Draft card battle in clash royale.</p>
-            </div>
-          </div>
-        </li>
           <br><br>
         <div class="">
 					<center><h4 style="color:green;font-family: 'lato', sans-serif;">DAY 3: MARCH 27th 2019 (WEDNESDAY)</h4></center>
 				<br>
 			</div>
+       <li class="timeline-inverted">
+          <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">WORKSHOP-2 </h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>The workshop named Aspen HYSYS will be started at the Mentioned time. Participants are requested to report venue before.</p>
+            </div>
+          </div>
+        </li>
+       <br>  
         <li class="timeline-inverted">
         	 <div class="timeline-badge info"><img class="imge1" src="../assets/images/poster%20presen.png"></div>
           <div class="timeline-panel">
