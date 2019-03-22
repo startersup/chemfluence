@@ -166,7 +166,7 @@ $_SESSION['redirect']='/route';
                                 <p>Board the Buses 49 , 21G , 54F, get down in CLRI Stop.</p>
                                 <p>Walk in to ACT (ALAGAPPA COLLEGE OF TECHNOLOGY)</p>
                                 <br>
-                                <p><span>1. FROM CHENNAI EGMORE & TAMBARAM</span>
+                                <p><span>2. FROM CHENNAI EGMORE & TAMBARAM</span>
                                 </p>
                                 <p>Take Local Train from Park Town ( Beach - Velachery)</p>
                                 <p>Get down in Kasturba Railway Station</p>
