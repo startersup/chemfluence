@@ -178,10 +178,11 @@ $_SESSION['redirect']='/timeline';
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">GUEST LECTURE</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:00 AM - 12:00 NOON</small></p>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:30 AM - 12:30 NOON</small></p>
             </div>
             <div class="timeline-body">
-              <p>The Guest Lecture will be starting sharply at the displayed time, participants are requested to be on time.</p>
+              <p>The Guest Lecture will be starting sharply at the displayed time, participants are requested to be on time.</p
+		    <p><span>Raman Auditorium</span></p>
             </div>
           </div>
         </li><br>
