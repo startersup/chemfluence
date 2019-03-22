@@ -170,6 +170,7 @@ $_SESSION['redirect']='/timeline';
             </div>
             <div class="timeline-body">
               <p>All the participants are requested to complete their registration before the Inaugration.</p>
+               <p><span>Raman Auditorium</span></p>
             </div>
           </div>
         </li><br>
