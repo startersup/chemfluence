@@ -226,6 +226,19 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
         <br>
+         <li class="timeline-inverted">
+          <div class="timeline-badge success"><img  class="imge1" src="../assets/images/lecron.png"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">RUMMY WITH CHEMICALS</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 5:00 PM – 6:00 PM </small></p>
+            </div>
+            <div class="timeline-body">
+              <p>A normal rummy game with joker, instead of decks of A,K,Q,J,…. ,Game is with chemicals.</p>
+              <p><span>316 (ACT)</span>
+            </div>
+          </div>
+        </li><br>
         <div class="">
 					<center><h4 style="color:green;font-family: 'lato', sans-serif;">DAY 2: MARCH 26th 2019 (TUESDAY)</h4></center>
 				<br>
