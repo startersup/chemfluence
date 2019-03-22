@@ -311,23 +311,37 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
           <br><br>
-        <div class="">
+        <div class="timeline-inverted">
 					<center><h4 style="color:green;font-family: 'lato', sans-serif;">DAY 3: MARCH 27th 2019 (WEDNESDAY)</h4></center>
 				<br>
 			</div>
-       <li class="timeline-inverted">
+       <li >
           <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">WORKSHOP-2 </h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:00 AM - 1:00 PM</small></p>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 9:30 AM – 1:00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>The workshop named Aspen HYSYS will be started at the Mentioned time. Participants are requested to report venue before.</p>
+              <p>In RESPONSE SURFACE METHODOLOGY (RSM) workshop , explores the relationships between several explanatory variables and one or more response variables.</p>
+              <p><span>RAMAN AUDI</span></p>
             </div>
           </div>
         </li>
        <br>  
+         <li >
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">SOLVE IT</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11:30 AM – 12:30PM</small></p>
+                 <p><span>201 (ACT)</span></p>
+            </div>
+            <div class="timeline-body">
+              <p></p>
+            </div>
+          </div>
+        </li>
         <li class="timeline-inverted">
         	 <div class="timeline-badge info"><img class="imge1" src="../assets/images/poster%20presen.png"></div>
           <div class="timeline-panel">
@@ -416,18 +430,7 @@ $_SESSION['redirect']='/timeline';
           </div>
         </li>
        <br>
-        <li class="timeline-inverted">
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">SOLVE IT</h4>
-              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 3:00 PM – 4:30 PM</small></p>
-            </div>
-            <div class="timeline-body">
-              <p></p>
-            </div>
-          </div>
-        </li>
+      
     </ul>
 </div>
                     </center>
