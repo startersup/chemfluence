@@ -154,7 +154,7 @@ $_SESSION['redirect']='/events';
                             <div class="col-md-6">
                                 <div class="card eventspace" id="borderimg2">
                                     <center> <img src="../assets/images/quiz.png"></center>
-                                <p>Intrested in Participating the Techincal Events and explore your Talents?</p>
+                                <p>Interested in Participating the Techincal Events and explore your Talents?</p>
                             <a href="../tech/"> <button class="button button3" >Spot</button></a>
                                   <a href="../ontech/">   <button class="button button2">Online</button></a>
                                 </div>
@@ -162,7 +162,7 @@ $_SESSION['redirect']='/events';
                                <div class="col-md-6">
                                 <div class="card eventspace" id="borderimg2">
                                      <center> <img src="../assets/images/clown.png"></center>
-                                    <p>Intrested in Participating the Non Techincal Events and express  your Funpack Knowledge ?</p>
+                                    <p>Interested in Participating the Non Techincal Events and express  your Funpack Knowledge ?</p>
                              <a href="../nontech/"> <button class="button button3" >Spot</button></a>
                                   <a href="../nontechon/">   <button class="button button2">Online</button></a>
                                 </div>
