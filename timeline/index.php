@@ -208,10 +208,24 @@ $_SESSION['redirect']='/timeline';
               <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1:30 – 4:00 PM</small></p>
             </div>
             <div class="timeline-body">
-              <p>All the Prticipants are requested to assemble in Meeting Room Prior to the event time.</p>
+              <p>All the Participants are requested to assemble in Meeting Room Prior to the event time.</p>
             </div>
           </div>
         </li><br>
+        <li>
+          <div class="timeline-badge info"><img  class="imge1" src="../assets/images/craftsman.png"></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">NERT STOP QUIZ (1) & CLASH OF CHEMICALS (2)</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 4 PM – 5.00 PM</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>The Partcipants are requested to schedule their timings as both the events are ongoing parallel.</p>
+              <p><span>201 (ACT)</span></p>
+            </div>
+          </div>
+        </li>
+        <br>
         <div class="">
 					<center><h4 style="color:green;font-family: 'lato', sans-serif;">DAY 2: MARCH 26th 2019 (TUESDAY)</h4></center>
 				<br>
