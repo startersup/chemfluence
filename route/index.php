@@ -217,7 +217,7 @@ $_SESSION['redirect']='/route';
 
                             <div class="col-md-6">
                                 <h4>Cab Routes</h4>
-                                <p>1. From tambaram -Rs 200 to Rs 250</p>
+                                <p>From tambaram -Rs 200 to Rs 250</p>
                                 <p>From egmore - Rs 150 to Rs 200</p>
                                 <p>From central - Rs 200 to Rs 250</p>
                                 <p>Surge Prices Apply during Peak Hours</p>
